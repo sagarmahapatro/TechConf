@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 16 Jun, 2015 4:02:10 AM by Hibernate Tools 3.2.2.GA -->
+<hibernate-mapping>
+    <class name="com.softwarefactory.techconf.entities.Grouppricingrule" table="grouppricingrule" catalog="TechConf">
+        <id name="pkId" type="int">
+            <column name="PK_ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="minimumattendees" type="java.lang.Integer">
+            <column name="MINIMUMATTENDEES" />
+        </property>
+        <property name="maximumattendees" type="java.lang.Integer">
+            <column name="MAXIMUMATTENDEES" />
+        </property>
+        <property name="discountrate" type="java.lang.Double">
+            <column name="DISCOUNTRATE" precision="22" scale="0" />
+        </property>
+    </class>
+</hibernate-mapping>

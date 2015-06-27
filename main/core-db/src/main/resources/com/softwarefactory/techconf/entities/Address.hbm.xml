@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 16 Jun, 2015 4:02:10 AM by Hibernate Tools 3.2.2.GA -->
+<hibernate-mapping>
+    <class name="com.softwarefactory.techconf.entities.Address" table="address" catalog="TechConf">
+        <id name="pkId" type="java.lang.Integer">
+            <column name="PK_ID" />
+            <generator class="identity" />
+        </id>
+        <property name="streetaddress" type="string">
+            <column name="STREETADDRESS" length="64" />
+        </property>
+        <property name="aptnumber" type="string">
+            <column name="APTNUMBER" length="32" />
+        </property>
+        <property name="city" type="string">
+            <column name="CITY" length="32" />
+        </property>
+        <property name="state" type="string">
+            <column name="STATE" length="2" />
+        </property>
+        <property name="zipcode" type="string">
+            <column name="ZIPCODE" length="10" />
+        </property>
+    </class>
+</hibernate-mapping>

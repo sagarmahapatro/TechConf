@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 16 Jun, 2015 4:02:10 AM by Hibernate Tools 3.2.2.GA -->
+<hibernate-mapping>
+    <class name="com.softwarefactory.techconf.entities.Booth" table="booth" catalog="TechConf">
+        <id name="pkId" type="java.lang.Integer">
+            <column name="PK_ID" />
+            <generator class="identity" />
+        </id>
+        <property name="notes" type="string">
+            <column name="NOTES" length="64" />
+        </property>
+        <property name="size" type="string">
+            <column name="SIZE" length="32" />
+        </property>
+        <property name="fkVenueId" type="java.lang.Integer">
+            <column name="FK_VENUE_ID" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 16 Jun, 2015 4:02:10 AM by Hibernate Tools 3.2.2.GA -->
+<hibernate-mapping>
+    <class name="com.softwarefactory.techconf.entities.User" table="user" catalog="TechConf">
+        <id name="pkId" type="java.lang.Integer">
+            <column name="PK_ID" />
+            <generator class="identity" />
+        </id>
+        <property name="usertype" type="string">
+            <column name="USERTYPE" length="3" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="PASSWORD" length="16" not-null="true" />
+        </property>
+        <property name="firstname" type="string">
+            <column name="FIRSTNAME" length="32" not-null="true" />
+        </property>
+        <property name="lastname" type="string">
+            <column name="LASTNAME" length="32" not-null="true" />
+        </property>
+        <property name="email" type="string">
+            <column name="EMAIL" length="64" not-null="true" unique="true" />
+        </property>
+        <property name="homephone" type="string">
+            <column name="HOMEPHONE" length="12" />
+        </property>
+        <property name="workphone" type="string">
+            <column name="WORKPHONE" length="12" />
+        </property>
+        <property name="fax" type="string">
+            <column name="FAX" length="12" />
+        </property>
+        <property name="fkAddressId" type="int">
+            <column name="FK_ADDRESS_ID" not-null="true" />
+        </property>
+        <property name="fkAttendeegroupId" type="java.lang.Integer">
+            <column name="FK_ATTENDEEGROUP_ID" />
+        </property>
+        <property name="alumnus" type="java.lang.Boolean">
+            <column name="ALUMNUS" />
+        </property>
+        <property name="bio" type="string">
+            <column name="BIO" />
+        </property>
+        <property name="company" type="string">
+            <column name="COMPANY" length="64" />
+        </property>
+        <property name="companyurl" type="string">
+            <column name="COMPANYURL" length="64" />
+        </property>
+        <property name="fkBloglinkId" type="string">
+            <column name="FK_BLOGLINK_ID" length="64" />
+        </property>
+    </class>
+</hibernate-mapping>

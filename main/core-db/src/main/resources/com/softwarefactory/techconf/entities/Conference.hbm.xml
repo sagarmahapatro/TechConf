@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 16 Jun, 2015 4:02:10 AM by Hibernate Tools 3.2.2.GA -->
+<hibernate-mapping>
+    <class name="com.softwarefactory.techconf.entities.Conference" table="conference" catalog="TechConf">
+        <id name="pkId" type="java.lang.Integer">
+            <column name="PK_ID" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="NAME" length="64" not-null="true" unique="true" />
+        </property>
+        <property name="description" type="string">
+            <column name="DESCRIPTION" not-null="true" />
+        </property>
+        <property name="startdate" type="timestamp">
+            <column name="STARTDATE" length="19" not-null="true" />
+        </property>
+        <property name="enddate" type="timestamp">
+            <column name="ENDDATE" length="19" not-null="true" />
+        </property>
+        <property name="abstractsubmissionstartdate" type="timestamp">
+            <column name="ABSTRACTSUBMISSIONSTARTDATE" length="19" not-null="true" />
+        </property>
+        <property name="abstractsubmissionenddate" type="timestamp">
+            <column name="ABSTRACTSUBMISSIONENDDATE" length="19" not-null="true" />
+        </property>
+        <property name="fkVenueId" type="java.lang.Integer">
+            <column name="FK_VENUE_ID" />
+        </property>
+    </class>
+</hibernate-mapping>

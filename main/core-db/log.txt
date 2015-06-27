@@ -1,0 +1,1897 @@
+Apache Maven 3.2.3 (33f8c3e1027c3ddde99d3cdebad2656a31e8fdf4; 2014-08-12T02:28:10+05:30)
+Maven home: D:\personal\apps\maven\apache-maven-3.2.3
+Java version: 1.7.0_67, vendor: Oracle Corporation
+Java home: C:\Program Files\Java\jdk1.7.0_67\jre
+Default locale: en_IN, platform encoding: Cp1252
+OS name: "windows 8.1", version: "6.3", arch: "amd64", family: "windows"
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from D:\personal\apps\maven\apache-maven-3.2.3\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\SANJAY\.m2\settings.xml
+[DEBUG] Using local repository at C:\Users\SANJAY\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\SANJAY\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.softwarefactory.techconf:db-core:jar:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.softwarefactory.techconf:TechconfRoot:pom:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.softwarefactory.techconf:db-core:jar:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building db-core 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.dbmaintain:dbmaintain-maven-plugin:2.4:clearDatabase (clean-database)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <databases>
+    <database>
+      <driverClassName>com.mysql.jdbc.Driver</driverClassName>
+      <userName>sagar</userName>
+      <password>sagar</password>
+      <url>jdbc:mysql://localhost:3306</url>
+      <schemaNames>TechConf</schemaNames>
+    </database>
+  </databases>
+  <localRepository default-value="${localRepository}"/>
+  <project>${project}</project>
+  <remoteRepositories default-value="${project.remoteArtifactRepositories}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.dbmaintain:dbmaintain-maven-plugin:2.4:updateDatabase (update-database)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <autoCreateDbMaintainScriptsTable>true</autoCreateDbMaintainScriptsTable>
+  <databases>
+    <database>
+      <driverClassName>com.mysql.jdbc.Driver</driverClassName>
+      <userName>sagar</userName>
+      <password>sagar</password>
+      <url>jdbc:mysql://localhost:3306</url>
+      <schemaNames>TechConf</schemaNames>
+    </database>
+  </databases>
+  <localRepository default-value="${localRepository}"/>
+  <project>${project}</project>
+  <remoteRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <scriptLocations>src/main/resources/scripts</scriptLocations>
+</configuration>
+[DEBUG] --- init fork of com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT for org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2java (generate-entities) ---
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.dbmaintain:dbmaintain-maven-plugin:2.4:updateDatabase (update-database)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <autoCreateDbMaintainScriptsTable>true</autoCreateDbMaintainScriptsTable>
+  <databases>
+    <database>
+      <driverClassName>com.mysql.jdbc.Driver</driverClassName>
+      <userName>sagar</userName>
+      <password>sagar</password>
+      <url>jdbc:mysql://localhost:3306</url>
+      <schemaNames>TechConf</schemaNames>
+    </database>
+  </databases>
+  <localRepository default-value="${localRepository}"/>
+  <project>${project}</project>
+  <remoteRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <scriptLocations>src/main/resources/scripts</scriptLocations>
+</configuration>
+[DEBUG] --- init fork of com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT for org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2hbmxml (generate-xml-files) ---
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): []
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.dbmaintain:dbmaintain-maven-plugin:2.4:updateDatabase (update-database)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <autoCreateDbMaintainScriptsTable>true</autoCreateDbMaintainScriptsTable>
+  <databases>
+    <database>
+      <driverClassName>com.mysql.jdbc.Driver</driverClassName>
+      <userName>sagar</userName>
+      <password>sagar</password>
+      <url>jdbc:mysql://localhost:3306</url>
+      <schemaNames>TechConf</schemaNames>
+    </database>
+  </databases>
+  <localRepository default-value="${localRepository}"/>
+  <project>${project}</project>
+  <remoteRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <scriptLocations>src/main/resources/scripts</scriptLocations>
+</configuration>
+[DEBUG] --- exit fork of com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT for org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2hbmxml (generate-xml-files) ---
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2hbmxml (generate-xml-files)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <componentProperties>
+    <revengfile>src/main/resources/hibernate/reveng.xml</revengfile>
+    <propertyfile>src/main/resources/hibernate/hibernate.properties</propertyfile>
+    <packagename>com.softwarefactory.techconf.entities</packagename>
+    <jdk5>true</jdk5>
+    <ejb3>true</ejb3>
+  </componentProperties>
+  <components>
+    <component>
+      <name>hbm2hbmxml</name>
+      <implementation>jdbcconfiguration</implementation>
+      <outputDirectory>target/generated-resources/hibernate3</outputDirectory>
+    </component>
+    <component>
+      <name>hbm2java</name>
+      <implementation>jdbcconfiguration</implementation>
+      <outputDirectory>target/generated-sources/hibernate3</outputDirectory>
+    </component>
+  </components>
+  <project>${project}</project>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] --- exit fork of com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT for org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2java (generate-entities) ---
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2java (generate-entities)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <componentProperties>
+    <revengfile>src/main/resources/hibernate/reveng.xml</revengfile>
+    <propertyfile>src/main/resources/hibernate/hibernate.properties</propertyfile>
+    <packagename>com.softwarefactory.techconf.entities</packagename>
+    <jdk5>true</jdk5>
+    <ejb3>true</ejb3>
+  </componentProperties>
+  <components>
+    <component>
+      <name>hbm2hbmxml</name>
+      <implementation>jdbcconfiguration</implementation>
+      <outputDirectory>target/generated-resources/hibernate3</outputDirectory>
+    </component>
+    <component>
+      <name>hbm2java</name>
+      <implementation>jdbcconfiguration</implementation>
+      <outputDirectory>target/generated-sources/hibernate3</outputDirectory>
+    </component>
+  </components>
+  <project>${project}</project>
+</configuration>
+[DEBUG] --- init fork of com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT for org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2hbmxml (generate-xml-files) ---
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.dbmaintain:dbmaintain-maven-plugin:2.4:updateDatabase (update-database)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <autoCreateDbMaintainScriptsTable>true</autoCreateDbMaintainScriptsTable>
+  <databases>
+    <database>
+      <driverClassName>com.mysql.jdbc.Driver</driverClassName>
+      <userName>sagar</userName>
+      <password>sagar</password>
+      <url>jdbc:mysql://localhost:3306</url>
+      <schemaNames>TechConf</schemaNames>
+    </database>
+  </databases>
+  <localRepository default-value="${localRepository}"/>
+  <project>${project}</project>
+  <remoteRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <scriptLocations>src/main/resources/scripts</scriptLocations>
+</configuration>
+[DEBUG] --- init fork of com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT for org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2java (generate-entities) ---
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): []
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.dbmaintain:dbmaintain-maven-plugin:2.4:updateDatabase (update-database)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <autoCreateDbMaintainScriptsTable>true</autoCreateDbMaintainScriptsTable>
+  <databases>
+    <database>
+      <driverClassName>com.mysql.jdbc.Driver</driverClassName>
+      <userName>sagar</userName>
+      <password>sagar</password>
+      <url>jdbc:mysql://localhost:3306</url>
+      <schemaNames>TechConf</schemaNames>
+    </database>
+  </databases>
+  <localRepository default-value="${localRepository}"/>
+  <project>${project}</project>
+  <remoteRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <scriptLocations>src/main/resources/scripts</scriptLocations>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] --- exit fork of com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT for org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2java (generate-entities) ---
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2java (generate-entities)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <componentProperties>
+    <revengfile>src/main/resources/hibernate/reveng.xml</revengfile>
+    <propertyfile>src/main/resources/hibernate/hibernate.properties</propertyfile>
+    <packagename>com.softwarefactory.techconf.entities</packagename>
+    <jdk5>true</jdk5>
+    <ejb3>true</ejb3>
+  </componentProperties>
+  <components>
+    <component>
+      <name>hbm2hbmxml</name>
+      <implementation>jdbcconfiguration</implementation>
+      <outputDirectory>target/generated-resources/hibernate3</outputDirectory>
+    </component>
+    <component>
+      <name>hbm2java</name>
+      <implementation>jdbcconfiguration</implementation>
+      <outputDirectory>target/generated-sources/hibernate3</outputDirectory>
+    </component>
+  </components>
+  <project>${project}</project>
+</configuration>
+[DEBUG] --- exit fork of com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT for org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2hbmxml (generate-xml-files) ---
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2hbmxml (generate-xml-files)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <componentProperties>
+    <revengfile>src/main/resources/hibernate/reveng.xml</revengfile>
+    <propertyfile>src/main/resources/hibernate/hibernate.properties</propertyfile>
+    <packagename>com.softwarefactory.techconf.entities</packagename>
+    <jdk5>true</jdk5>
+    <ejb3>true</ejb3>
+  </componentProperties>
+  <components>
+    <component>
+      <name>hbm2hbmxml</name>
+      <implementation>jdbcconfiguration</implementation>
+      <outputDirectory>target/generated-resources/hibernate3</outputDirectory>
+    </component>
+    <component>
+      <name>hbm2java</name>
+      <implementation>jdbcconfiguration</implementation>
+      <outputDirectory>target/generated-sources/hibernate3</outputDirectory>
+    </component>
+  </components>
+  <project>${project}</project>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip>${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <runOrder default-value="filesystem"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:2.4:jar (default-jar)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <defaultManifestFile default-value="${project.build.outputDirectory}/META-INF/MANIFEST.MF"/>
+  <finalName default-value="${project.build.finalName}">${jar.finalName}</finalName>
+  <forceCreation default-value="false">${jar.forceCreation}</forceCreation>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skipIfEmpty default-value="false">${jar.skipIfEmpty}</skipIfEmpty>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.4:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.dbmaintain:dbmaintain-maven-plugin:2.4:createScriptArchive (create-script-archive)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <localRepository default-value="${localRepository}"/>
+  <project>${project}</project>
+  <qualifier>dbmaintain</qualifier>
+  <remoteRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <scriptLocations default-value="${basedir}">src/main/resources/scripts</scriptLocations>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=1, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=0, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=0, DefaultDependencyCollector.collectTime=0, DefaultDependencyCollector.transformTime=0}
+[DEBUG] com.softwarefactory.techconf:db-core:jar:0.0.1-SNAPSHOT
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ db-core ---
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=47, DefaultDependencyCollector.transformTime=0}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = D:\personal\project\java\TechConf\main\core-db\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = D:\personal\project\java\TechConf\main\core-db\target\classes
+[DEBUG]   (f) reportDirectory = D:\personal\project\java\TechConf\main\core-db\target\site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = D:\personal\project\java\TechConf\main\core-db\target\test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting D:\personal\project\java\TechConf\main\core-db\target
+[INFO] Deleting directory D:\personal\project\java\TechConf\main\core-db\target\test-classes
+[INFO] Deleting file D:\personal\project\java\TechConf\main\core-db\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst
+[INFO] Deleting directory D:\personal\project\java\TechConf\main\core-db\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile
+[INFO] Deleting directory D:\personal\project\java\TechConf\main\core-db\target\maven-status\maven-compiler-plugin\testCompile
+[INFO] Deleting file D:\personal\project\java\TechConf\main\core-db\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst
+[INFO] Deleting directory D:\personal\project\java\TechConf\main\core-db\target\maven-status\maven-compiler-plugin\compile\default-compile
+[INFO] Deleting directory D:\personal\project\java\TechConf\main\core-db\target\maven-status\maven-compiler-plugin\compile
+[INFO] Deleting directory D:\personal\project\java\TechConf\main\core-db\target\maven-status\maven-compiler-plugin
+[INFO] Deleting directory D:\personal\project\java\TechConf\main\core-db\target\maven-status
+[INFO] Deleting file D:\personal\project\java\TechConf\main\core-db\target\maven-archiver\pom.properties
+[INFO] Deleting directory D:\personal\project\java\TechConf\main\core-db\target\maven-archiver
+[INFO] Deleting file D:\personal\project\java\TechConf\main\core-db\target\db-core-0.0.1-SNAPSHOT.jar
+[INFO] Deleting file D:\personal\project\java\TechConf\main\core-db\target\db-core-0.0.1-SNAPSHOT-dbmaintain.jar
+[INFO] Deleting file D:\personal\project\java\TechConf\main\core-db\target\classes\scripts\incremental\01_R001\01_basline_intial_create_db.sql
+[INFO] Deleting directory D:\personal\project\java\TechConf\main\core-db\target\classes\scripts\incremental\01_R001
+[INFO] Deleting directory D:\personal\project\java\TechConf\main\core-db\target\classes\scripts\incremental
+[INFO] Deleting directory D:\personal\project\java\TechConf\main\core-db\target\classes\scripts
+[INFO] Deleting file D:\personal\project\java\TechConf\main\core-db\target\classes\hibernate\reveng.xml
+[INFO] Deleting file D:\personal\project\java\TechConf\main\core-db\target\classes\hibernate\hibernate.properties
+[INFO] Deleting directory D:\personal\project\java\TechConf\main\core-db\target\classes\hibernate
+[INFO] Deleting directory D:\personal\project\java\TechConf\main\core-db\target\classes
+[INFO] Deleting directory D:\personal\project\java\TechConf\main\core-db\target
+[DEBUG] Skipping non-existing directory D:\personal\project\java\TechConf\main\core-db\target\classes
+[DEBUG] Skipping non-existing directory D:\personal\project\java\TechConf\main\core-db\target\test-classes
+[DEBUG] Skipping non-existing directory D:\personal\project\java\TechConf\main\core-db\target\site
+[INFO] 
+[INFO] --- dbmaintain-maven-plugin:2.4:clearDatabase (clean-database) @ db-core ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=39, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=20, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=39, DefaultDependencyCollector.collectTime=171, DefaultDependencyCollector.transformTime=0}
+[DEBUG] org.dbmaintain:dbmaintain-maven-plugin:jar:2.4:
+[DEBUG]    mysql:mysql-connector-java:jar:5.1.22:runtime
+[DEBUG]    org.dbmaintain:dbmaintain:jar:2.4:compile
+[DEBUG]       ant:ant:jar:1.6.5:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.4:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:4.4:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.15:compile
+[DEBUG] Created new class realm plugin>org.dbmaintain:dbmaintain-maven-plugin:2.4
+[DEBUG] Importing foreign packages into class realm plugin>org.dbmaintain:dbmaintain-maven-plugin:2.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.dbmaintain:dbmaintain-maven-plugin:2.4
+[DEBUG]   Included: org.dbmaintain:dbmaintain-maven-plugin:jar:2.4
+[DEBUG]   Included: mysql:mysql-connector-java:jar:5.1.22
+[DEBUG]   Included: org.dbmaintain:dbmaintain:jar:2.4
+[DEBUG]   Included: ant:ant:jar:1.6.5
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.4
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: junit:junit:jar:4.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.15
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.2.1
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG] Configuring mojo org.dbmaintain:dbmaintain-maven-plugin:2.4:clearDatabase from plugin realm ClassRealm[plugin>org.dbmaintain:dbmaintain-maven-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.dbmaintain:dbmaintain-maven-plugin:2.4:clearDatabase' with basic configurator -->
+[DEBUG]   (s) driverClassName = com.mysql.jdbc.Driver
+[DEBUG]   (s) userName = sagar
+[DEBUG]   (s) password = sagar
+[DEBUG]   (s) url = jdbc:mysql://localhost:3306
+[DEBUG]   (s) schemaNames = TechConf
+[DEBUG]   (f) databases = [org.dbmaintain.maven.plugin.Database@17e87b37]
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/SANJAY/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) project = MavenProject: com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT @ D:\personal\project\java\TechConf\main\core-db\pom.xml
+[DEBUG]   (f) remoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG] -- end configuration --
+[INFO] 
+[INFO] --- dbmaintain-maven-plugin:2.4:updateDatabase (update-database) @ db-core ---
+[DEBUG] Configuring mojo org.dbmaintain:dbmaintain-maven-plugin:2.4:updateDatabase from plugin realm ClassRealm[plugin>org.dbmaintain:dbmaintain-maven-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.dbmaintain:dbmaintain-maven-plugin:2.4:updateDatabase' with basic configurator -->
+[DEBUG]   (f) autoCreateDbMaintainScriptsTable = true
+[DEBUG]   (s) driverClassName = com.mysql.jdbc.Driver
+[DEBUG]   (s) userName = sagar
+[DEBUG]   (s) password = sagar
+[DEBUG]   (s) url = jdbc:mysql://localhost:3306
+[DEBUG]   (s) schemaNames = TechConf
+[DEBUG]   (f) databases = [org.dbmaintain.maven.plugin.Database@7b0fdacb]
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/SANJAY/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) project = MavenProject: com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT @ D:\personal\project\java\TechConf\main\core-db\pom.xml
+[DEBUG]   (f) remoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (f) scriptLocations = src/main/resources/scripts
+[DEBUG] -- end configuration --
+[INFO] 
+[INFO] >>> hibernate3-maven-plugin:2.2:hbm2java (generate-entities) > process-resources @ db-core >>>
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=1, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=0, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=0, DefaultDependencyCollector.collectTime=0, DefaultDependencyCollector.transformTime=0}
+[DEBUG] com.softwarefactory.techconf:db-core:jar:0.0.1-SNAPSHOT
+[INFO] 
+[INFO] --- dbmaintain-maven-plugin:2.4:updateDatabase (update-database) @ db-core ---
+[DEBUG] Configuring mojo org.dbmaintain:dbmaintain-maven-plugin:2.4:updateDatabase from plugin realm ClassRealm[plugin>org.dbmaintain:dbmaintain-maven-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.dbmaintain:dbmaintain-maven-plugin:2.4:updateDatabase' with basic configurator -->
+[DEBUG]   (f) autoCreateDbMaintainScriptsTable = true
+[DEBUG]   (s) driverClassName = com.mysql.jdbc.Driver
+[DEBUG]   (s) userName = sagar
+[DEBUG]   (s) password = sagar
+[DEBUG]   (s) url = jdbc:mysql://localhost:3306
+[DEBUG]   (s) schemaNames = TechConf
+[DEBUG]   (f) databases = [org.dbmaintain.maven.plugin.Database@69e74d01]
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/SANJAY/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) project = MavenProject: com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT @ D:\personal\project\java\TechConf\main\core-db\pom.xml
+[DEBUG]   (f) remoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (f) scriptLocations = src/main/resources/scripts
+[DEBUG] -- end configuration --
+[INFO] 
+[INFO] >>> hibernate3-maven-plugin:2.2:hbm2hbmxml (generate-xml-files) > generate-resources @ db-core >>>
+[INFO] 
+[INFO] --- dbmaintain-maven-plugin:2.4:updateDatabase (update-database) @ db-core ---
+[DEBUG] Configuring mojo org.dbmaintain:dbmaintain-maven-plugin:2.4:updateDatabase from plugin realm ClassRealm[plugin>org.dbmaintain:dbmaintain-maven-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.dbmaintain:dbmaintain-maven-plugin:2.4:updateDatabase' with basic configurator -->
+[DEBUG]   (f) autoCreateDbMaintainScriptsTable = true
+[DEBUG]   (s) driverClassName = com.mysql.jdbc.Driver
+[DEBUG]   (s) userName = sagar
+[DEBUG]   (s) password = sagar
+[DEBUG]   (s) url = jdbc:mysql://localhost:3306
+[DEBUG]   (s) schemaNames = TechConf
+[DEBUG]   (f) databases = [org.dbmaintain.maven.plugin.Database@79e893ae]
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/SANJAY/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) project = MavenProject: com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT @ D:\personal\project\java\TechConf\main\core-db\pom.xml
+[DEBUG]   (f) remoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (f) scriptLocations = src/main/resources/scripts
+[DEBUG] -- end configuration --
+[INFO] 
+[INFO] <<< hibernate3-maven-plugin:2.2:hbm2hbmxml (generate-xml-files) < generate-resources @ db-core <<<
+[INFO] 
+[INFO] --- hibernate3-maven-plugin:2.2:hbm2hbmxml (generate-xml-files) @ db-core ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=92, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=42, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=15, ConflictResolver.conflictItemCount=91, DefaultDependencyCollector.collectTime=203, DefaultDependencyCollector.transformTime=15}
+[DEBUG] org.codehaus.mojo:hibernate3-maven-plugin:jar:2.2:
+[DEBUG]    cglib:cglib-nodep:jar:2.2.2:runtime
+[DEBUG]    mysql:mysql-connector-java:jar:5.1.22:runtime
+[DEBUG]    log4j:log4j:jar:1.2.14:runtime
+[DEBUG]    org.hibernate:hibernate-tools:jar:3.2.3.GA:compile
+[DEBUG]       org.beanshell:bsh:jar:2.0b4:compile
+[DEBUG]       freemarker:freemarker:jar:2.3.8:compile
+[DEBUG]       org.hibernate:jtidy:jar:r8-20060801:compile
+[DEBUG]    org.hibernate:hibernate-core:jar:3.3.1.GA:compile
+[DEBUG]       antlr:antlr:jar:2.7.6:compile
+[DEBUG]       commons-collections:commons-collections:jar:3.1:compile
+[DEBUG]       dom4j:dom4j:jar:1.6.1:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]    org.codehaus.mojo.hibernate3:maven-hibernate3-api:jar:2.2:compile
+[DEBUG]       xml-apis:xml-apis:jar:1.0.b2:compile
+[DEBUG]       org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:jar:1.1.1:runtime
+[DEBUG]       org.slf4j:slf4j-log4j12:jar:1.5.6:runtime
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.2:test
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.mojo.hibernate3:maven-hibernate3-jdk14:jar:2.2:compile
+[DEBUG]    org.codehaus.mojo.hibernate3:maven-hibernate3-jdk15:jar:2.2:compile
+[DEBUG]       org.hibernate:hibernate-entitymanager:jar:3.4.0.GA:compile
+[DEBUG]          org.hibernate:hibernate-commons-annotations:jar:3.1.0.GA:compile
+[DEBUG]          javax.transaction:jta:jar:1.1:compile
+[DEBUG]       org.hibernate:ejb3-persistence:jar:1.0.2.GA:compile
+[DEBUG]       org.hibernate:hibernate-annotations:jar:3.4.0.GA:compile
+[DEBUG]       jboss:jboss-common:jar:4.0.2:compile
+[DEBUG]          slide:webdavlib:jar:2.0:compile
+[DEBUG]          xerces:xercesImpl:jar:2.6.2:compile
+[DEBUG]       javassist:javassist:jar:3.4.GA:compile
+[DEBUG] Created new class realm plugin>org.codehaus.mojo:hibernate3-maven-plugin:2.2
+[DEBUG] Importing foreign packages into class realm plugin>org.codehaus.mojo:hibernate3-maven-plugin:2.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.codehaus.mojo:hibernate3-maven-plugin:2.2
+[DEBUG]   Included: org.codehaus.mojo:hibernate3-maven-plugin:jar:2.2
+[DEBUG]   Included: cglib:cglib-nodep:jar:2.2.2
+[DEBUG]   Included: mysql:mysql-connector-java:jar:5.1.22
+[DEBUG]   Included: log4j:log4j:jar:1.2.14
+[DEBUG]   Included: org.hibernate:hibernate-tools:jar:3.2.3.GA
+[DEBUG]   Included: org.beanshell:bsh:jar:2.0b4
+[DEBUG]   Included: freemarker:freemarker:jar:2.3.8
+[DEBUG]   Included: org.hibernate:jtidy:jar:r8-20060801
+[DEBUG]   Included: org.hibernate:hibernate-core:jar:3.3.1.GA
+[DEBUG]   Included: antlr:antlr:jar:2.7.6
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.1
+[DEBUG]   Included: dom4j:dom4j:jar:1.6.1
+[DEBUG]   Included: org.slf4j:slf4j-api:jar:1.5.6
+[DEBUG]   Included: org.codehaus.mojo.hibernate3:maven-hibernate3-api:jar:2.2
+[DEBUG]   Included: xml-apis:xml-apis:jar:1.0.b2
+[DEBUG]   Included: org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:jar:1.1.1
+[DEBUG]   Included: org.slf4j:slf4j-log4j12:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.6
+[DEBUG]   Included: org.codehaus.mojo.hibernate3:maven-hibernate3-jdk14:jar:2.2
+[DEBUG]   Included: org.codehaus.mojo.hibernate3:maven-hibernate3-jdk15:jar:2.2
+[DEBUG]   Included: org.hibernate:hibernate-entitymanager:jar:3.4.0.GA
+[DEBUG]   Included: org.hibernate:hibernate-commons-annotations:jar:3.1.0.GA
+[DEBUG]   Included: javax.transaction:jta:jar:1.1
+[DEBUG]   Included: org.hibernate:ejb3-persistence:jar:1.0.2.GA
+[DEBUG]   Included: org.hibernate:hibernate-annotations:jar:3.4.0.GA
+[DEBUG]   Included: jboss:jboss-common:jar:4.0.2
+[DEBUG]   Included: slide:webdavlib:jar:2.0
+[DEBUG]   Included: xerces:xercesImpl:jar:2.6.2
+[DEBUG]   Included: javassist:javassist:jar:3.4.GA
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: junit:junit:jar:3.8.2
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG] Configuring mojo org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2hbmxml from plugin realm ClassRealm[plugin>org.codehaus.mojo:hibernate3-maven-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2hbmxml' with basic configurator -->
+[DEBUG]   (f) componentProperties = {ejb3=true, jdk5=true, packagename=com.softwarefactory.techconf.entities, propertyfile=src/main/resources/hibernate/hibernate.properties, revengfile=src/main/resources/hibernate/reveng.xml}
+[DEBUG]   (s) name = hbm2hbmxml
+[DEBUG]   (s) implementation = jdbcconfiguration
+[DEBUG]   (s) outputDirectory = target/generated-resources/hibernate3
+[DEBUG]   (s) name = hbm2java
+[DEBUG]   (s) implementation = jdbcconfiguration
+[DEBUG]   (s) outputDirectory = target/generated-sources/hibernate3
+[DEBUG]   (f) components = [org.codehaus.mojo.hibernate3.exporter.Component@5eb630d1, org.codehaus.mojo.hibernate3.exporter.Component@b3f19eb]
+[DEBUG]   (f) project = MavenProject: com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT @ D:\personal\project\java\TechConf\main\core-db\pom.xml
+[DEBUG] -- end configuration --
+[INFO] using jdbcconfiguration task.
+[INFO] Hibernate 3.3.1.GA
+[INFO] hibernate.properties not found
+[INFO] Bytecode provider name : javassist
+[INFO] using JDK 1.4 java.sql.Timestamp handling
+[DEBUG] basedir: D:\personal\project\java\TechConf\main\core-db
+[DEBUG] src/main/resources/hibernate.cfg.xml not found within the project. Trying absolute path.
+[INFO] No hibernate configuration file loaded.
+[INFO] Configuration Properties file loaded: D:\personal\project\java\TechConf\main\core-db\src\main\resources\hibernate\hibernate.properties
+[INFO] Override file: D:\personal\project\java\TechConf\main\core-db\src\main\resources\hibernate\reveng.xml
+[DEBUG] trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd]
+[DEBUG] recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[DEBUG] located [http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd] in classpath
+[INFO] Using Hibernate built-in connection pool (not for production use!)
+[INFO] Hibernate connection pool size: 20
+[INFO] autocommit mode: false
+[INFO] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306
+[INFO] connection properties: {user=sagar, password=sagar}
+[DEBUG] opening new JDBC connection
+[DEBUG] created connection to: jdbc:mysql://localhost:3306, Isolation Level: 4
+[INFO] RDBMS: MySQL, version: 5.6.25
+[INFO] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.22 ( Revision: ${bzr.revision-id} )
+[INFO] Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO] Using default transaction strategy (direct JDBC transactions)
+[INFO] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO] Automatic flush during beforeCompletion(): disabled
+[INFO] Automatic session close at end of transaction: disabled
+[INFO] JDBC batch size: 15
+[INFO] JDBC batch updates for versioned data: disabled
+[INFO] Scrollable result sets: enabled
+[DEBUG] Wrap result sets: disabled
+[INFO] JDBC3 getGeneratedKeys(): enabled
+[INFO] Connection release mode: auto
+[INFO] Maximum outer join fetch depth: 2
+[INFO] Default batch fetch size: 1
+[INFO] Generate SQL with comments: disabled
+[INFO] Order SQL updates by primary key: disabled
+[INFO] Order SQL inserts for batching: disabled
+[INFO] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO] Using ASTQueryTranslatorFactory
+[INFO] Query language substitutions: {}
+[INFO] JPA-QL strict compliance: disabled
+[INFO] Second-level cache: enabled
+[INFO] Query cache: disabled
+[INFO] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO] Optimize cache for minimal puts: disabled
+[INFO] Structured second-level cache entries: disabled
+[INFO] Statistics: disabled
+[INFO] Deleted entity synthetic identifier rollback: disabled
+[INFO] Default entity-mode: pojo
+[INFO] Named query checking : enabled
+[DEBUG] getTables(null.techconf.address)
+[INFO] cleaning up connection pool: jdbc:mysql://localhost:3306
+[DEBUG] processing extends queue
+[DEBUG] processing collection mappings
+[DEBUG] processing native query and ResultSetMapping mappings
+[DEBUG] processing association property references
+[DEBUG] processing foreign key constraints
+[DEBUG] org.hibernate.tool.hbm2x.HibernateMappingExporter outputdir:D:\personal\project\java\TechConf\main\core-db\target\generated-resources\hibernate3 path: []
+[INFO] Hibernate Tools 3.2.2.GA
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ db-core ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=125, DefaultDependencyCollector.transformTime=0}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.6
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = D:\personal\project\java\TechConf\main\core-db\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT @ D:\personal\project\java\TechConf\main\core-db\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: D:\personal\project\java\TechConf\main\core-db\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@566622c9
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SYSTEMROOT=C:\windows, env.USERDOMAIN_ROAMINGPROFILE=ARNAV, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.PROMPT=$P$G, os.name=Windows 8.1, env.FP_NO_HOST_CHECK=NO, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0_67\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_67\jre\classes, env.COMPUTERNAME=ARNAV, env.ALLUSERSPROFILE=C:\ProgramData, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, db-mainatain-version=2.4, java.runtime.version=1.7.0_67-b01, env.HOMEPATH=\Users\SANJAY, driver=com.mysql.jdbc.Driver, user.name=SANJAY, maven.build.version=Apache Maven 3.2.3 (33f8c3e1027c3ddde99d3cdebad2656a31e8fdf4; 2014-08-12T02:28:10+05:30), env.PATH=C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\personal\apps\mysql\MySQL Utilities 1.4.3\;D:\personal\apps\mysql\MySQL Utilities 1.4.3\Doctrine extensions for PHP\;D:\personal\apps\maven\apache-maven-3.2.3\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\MongoDB 2.6 Standard\bin;C:\Program Files\TortoiseSVN\bin;D:\personal\apps\ant\apache-ant-1.9.4\bin;C:\Users\SANJAY\AppData\Roaming\npm, user.language=en, env.WINDIR=C:\windows, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0_67\jre\bin, classworlds.conf=D:\personal\apps\maven\apache-maven-3.2.3\bin\m2.conf, url=jdbc:mysql://localhost:3306, java.version=1.7.0_67, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel, user.timezone=Asia/Calcutta, env.TEMP=C:\Users\SANJAY\AppData\Local\Temp, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0_67\jre\lib\endorsed, env.FLEX_HOME=D:\personal\software\flex, sun.cpu.isalist=amd64, env.HOMEDRIVE=C:, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, env.CATALINA_OPTS=-Dfile.encoding=UTF-8 , env.SYSTEMDRIVE=C:, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=51.0, org.slf4j.simpleLogger.defaultLogLevel=debug, user.country=IN, java.home=C:\Program Files\Java\jdk1.7.0_67\jre, env.APPDATA=C:\Users\SANJAY\AppData\Roaming, env.CONFIGSETROOT=C:\windows\ConfigSetRoot, env.PUBLIC=C:\Users\Public, java.vm.info=mixed mode, env.OS=Windows_NT, os.version=6.3, env.=::=::\, env.JAVA_OPTS=-Xms256m -Xmx1024m -XX:MaxPermSize=256m , path.separator=;, java.vm.version=24.65-b04, user=sagar, user.variant=, env.USERPROFILE=C:\Users\SANJAY, env.JAVA_HOME=C:\Program Files\Java\jdk1.7.0_67, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.TMP=C:\Users\SANJAY\AppData\Local\Temp, env.PROGRAMFILES=C:\Program Files, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, user.home=C:\Users\SANJAY, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.=EXITCODE=00000000, env.SESSIONNAME=Console, java.specification.vendor=Oracle Corporation, env.M2_HOME=D:\personal\apps\maven\apache-maven-3.2.3, env.NUMBER_OF_PROCESSORS=4, java.library.path=C:\Program Files\Java\jdk1.7.0_67\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\personal\apps\mysql\MySQL Utilities 1.4.3\;D:\personal\apps\mysql\MySQL Utilities 1.4.3\Doctrine extensions for PHP\;D:\personal\apps\maven\apache-maven-3.2.3\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\MongoDB 2.6 Standard\bin;C:\Program Files\TortoiseSVN\bin;D:\personal\apps\ant\apache-ant-1.9.4\bin;C:\Users\SANJAY\AppData\Roaming\npm;., java.vendor.url=http://java.oracle.com/, env.PSMODULEPATH=C:\windows\system32\WindowsPowerShell\v1.0\Modules\, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.MAVEN_CMD_LINE_ARGS=clean install -X, java.vm.vendor=Oracle Corporation, schema=TechConf, maven.home=D:\personal\apps\maven\apache-maven-3.2.3, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -X, java.class.path=D:\personal\apps\maven\apache-maven-3.2.3\boot\plexus-classworlds-2.5.1.jar, env.PROGRAMW6432=C:\Program Files, env.ANT_OPTS=-Xms256m -Xmx1024m -XX:MaxPermSize=256m , maven.version=3.2.3, env.PROGRAMFILES(X86)=C:\Program Files (x86), env.MAVEN_JAVA_EXE="C:\Program Files\Java\jdk1.7.0_67\bin\java.exe", java.vm.specification.name=Java Virtual Machine Specification, env.LOGONSERVER=\\MicrosoftAccount, java.vm.specification.version=1.7, env.PROCESSOR_ARCHITECTURE=AMD64, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, sun.cpu.endian=little, sun.os.patch.level=, env.HOME=C:\Users\SANJAY, env.ANT_HOME=D:\personal\apps\ant\apache-ant-1.9.4, java.io.tmpdir=C:\Users\SANJAY\AppData\Local\Temp\, env.PROCESSOR_REVISION=4501, db-script=src/main/resources/scripts, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.MAVEN_OPTS=-Xms256m -Xmx1024m -XX:MaxPermSize=256m , env.PROGRAMDATA=C:\ProgramData, env.COMSPEC=C:\windows\system32\cmd.exe, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.7.0_67\jre\lib\ext;C:\windows\Sun\Java\lib\ext, env.=D:=D:\personal\project\java\TechConf\main\core-db, env.LOCALAPPDATA=C:\Users\SANJAY\AppData\Local, user.dir=D:\personal\project\java\TechConf\main\core-db, password=sagar, line.separator=
+, env.CLASSWORLDS_JAR="D:\personal\apps\maven\apache-maven-3.2.3\boot\plexus-classworlds-2.5.1.jar", java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.ERROR_CODE=0, env.USERNAME=SANJAY, file.encoding=Cp1252, env.USERDOMAIN=ARNAV, java.specification.version=1.7, env.=C:=C:\Windows\System32, env.PROCESSOR_LEVEL=6, env.VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\}
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory D:\personal\project\java\TechConf\main\core-db\src\main\resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 3 resources
+[DEBUG] file hibernate.properties has a filtered file extension
+[DEBUG] copy D:\personal\project\java\TechConf\main\core-db\src\main\resources\hibernate\hibernate.properties to D:\personal\project\java\TechConf\main\core-db\target\classes\hibernate\hibernate.properties
+[DEBUG] file reveng.xml has a filtered file extension
+[DEBUG] copy D:\personal\project\java\TechConf\main\core-db\src\main\resources\hibernate\reveng.xml to D:\personal\project\java\TechConf\main\core-db\target\classes\hibernate\reveng.xml
+[DEBUG] file 01_basline_intial_create_db.sql has a filtered file extension
+[DEBUG] copy D:\personal\project\java\TechConf\main\core-db\src\main\resources\scripts\incremental\01_R001\01_basline_intial_create_db.sql to D:\personal\project\java\TechConf\main\core-db\target\classes\scripts\incremental\01_R001\01_basline_intial_create_db.sql
+[DEBUG] no use filter components
+[INFO] 
+[INFO] <<< hibernate3-maven-plugin:2.2:hbm2java (generate-entities) < process-resources @ db-core <<<
+[INFO] 
+[INFO] --- hibernate3-maven-plugin:2.2:hbm2java (generate-entities) @ db-core ---
+[DEBUG] Configuring mojo org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2java from plugin realm ClassRealm[plugin>org.codehaus.mojo:hibernate3-maven-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2java' with basic configurator -->
+[DEBUG]   (f) componentProperties = {ejb3=true, jdk5=true, packagename=com.softwarefactory.techconf.entities, propertyfile=src/main/resources/hibernate/hibernate.properties, revengfile=src/main/resources/hibernate/reveng.xml}
+[DEBUG]   (s) name = hbm2hbmxml
+[DEBUG]   (s) implementation = jdbcconfiguration
+[DEBUG]   (s) outputDirectory = target/generated-resources/hibernate3
+[DEBUG]   (s) name = hbm2java
+[DEBUG]   (s) implementation = jdbcconfiguration
+[DEBUG]   (s) outputDirectory = target/generated-sources/hibernate3
+[DEBUG]   (f) components = [org.codehaus.mojo.hibernate3.exporter.Component@79bd7522, org.codehaus.mojo.hibernate3.exporter.Component@555499f]
+[DEBUG]   (f) project = MavenProject: com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT @ D:\personal\project\java\TechConf\main\core-db\pom.xml
+[DEBUG] -- end configuration --
+[INFO] using jdbcconfiguration task.
+[DEBUG] basedir: D:\personal\project\java\TechConf\main\core-db
+[DEBUG] src/main/resources/hibernate.cfg.xml not found within the project. Trying absolute path.
+[INFO] No hibernate configuration file loaded.
+[INFO] Configuration Properties file loaded: D:\personal\project\java\TechConf\main\core-db\src\main\resources\hibernate\hibernate.properties
+[INFO] Override file: D:\personal\project\java\TechConf\main\core-db\src\main\resources\hibernate\reveng.xml
+[DEBUG] trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd]
+[DEBUG] recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[DEBUG] located [http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd] in classpath
+[INFO] Using Hibernate built-in connection pool (not for production use!)
+[INFO] Hibernate connection pool size: 20
+[INFO] autocommit mode: false
+[INFO] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306
+[INFO] connection properties: {user=sagar, password=sagar}
+[DEBUG] opening new JDBC connection
+[DEBUG] created connection to: jdbc:mysql://localhost:3306, Isolation Level: 4
+[INFO] RDBMS: MySQL, version: 5.6.25
+[INFO] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.22 ( Revision: ${bzr.revision-id} )
+[INFO] Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO] Using default transaction strategy (direct JDBC transactions)
+[INFO] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO] Automatic flush during beforeCompletion(): disabled
+[INFO] Automatic session close at end of transaction: disabled
+[INFO] JDBC batch size: 15
+[INFO] JDBC batch updates for versioned data: disabled
+[INFO] Scrollable result sets: enabled
+[DEBUG] Wrap result sets: disabled
+[INFO] JDBC3 getGeneratedKeys(): enabled
+[INFO] Connection release mode: auto
+[INFO] Maximum outer join fetch depth: 2
+[INFO] Default batch fetch size: 1
+[INFO] Generate SQL with comments: disabled
+[INFO] Order SQL updates by primary key: disabled
+[INFO] Order SQL inserts for batching: disabled
+[INFO] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO] Using ASTQueryTranslatorFactory
+[INFO] Query language substitutions: {}
+[INFO] JPA-QL strict compliance: disabled
+[INFO] Second-level cache: enabled
+[INFO] Query cache: disabled
+[INFO] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO] Optimize cache for minimal puts: disabled
+[INFO] Structured second-level cache entries: disabled
+[INFO] Statistics: disabled
+[INFO] Deleted entity synthetic identifier rollback: disabled
+[INFO] Default entity-mode: pojo
+[INFO] Named query checking : enabled
+[DEBUG] getTables(null.techconf.address)
+[INFO] cleaning up connection pool: jdbc:mysql://localhost:3306
+[DEBUG] processing extends queue
+[DEBUG] processing collection mappings
+[DEBUG] processing native query and ResultSetMapping mappings
+[DEBUG] processing association property references
+[DEBUG] processing foreign key constraints
+[DEBUG] org.hibernate.tool.hbm2x.POJOExporter outputdir:D:\personal\project\java\TechConf\main\core-db\target\generated-sources\hibernate3 path: []
+[INFO] 
+[INFO] >>> hibernate3-maven-plugin:2.2:hbm2hbmxml (generate-xml-files) > generate-resources @ db-core >>>
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=1, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=0, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=0, DefaultDependencyCollector.collectTime=0, DefaultDependencyCollector.transformTime=0}
+[DEBUG] com.softwarefactory.techconf:db-core:jar:0.0.1-SNAPSHOT
+[INFO] 
+[INFO] --- dbmaintain-maven-plugin:2.4:updateDatabase (update-database) @ db-core ---
+[DEBUG] Configuring mojo org.dbmaintain:dbmaintain-maven-plugin:2.4:updateDatabase from plugin realm ClassRealm[plugin>org.dbmaintain:dbmaintain-maven-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.dbmaintain:dbmaintain-maven-plugin:2.4:updateDatabase' with basic configurator -->
+[DEBUG]   (f) autoCreateDbMaintainScriptsTable = true
+[DEBUG]   (s) driverClassName = com.mysql.jdbc.Driver
+[DEBUG]   (s) userName = sagar
+[DEBUG]   (s) password = sagar
+[DEBUG]   (s) url = jdbc:mysql://localhost:3306
+[DEBUG]   (s) schemaNames = TechConf
+[DEBUG]   (f) databases = [org.dbmaintain.maven.plugin.Database@65496746]
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/SANJAY/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) project = MavenProject: com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT @ D:\personal\project\java\TechConf\main\core-db\pom.xml
+[DEBUG]   (f) remoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (f) scriptLocations = src/main/resources/scripts
+[DEBUG] -- end configuration --
+[INFO] 
+[INFO] >>> hibernate3-maven-plugin:2.2:hbm2java (generate-entities) > process-resources @ db-core >>>
+[INFO] 
+[INFO] --- dbmaintain-maven-plugin:2.4:updateDatabase (update-database) @ db-core ---
+[DEBUG] Configuring mojo org.dbmaintain:dbmaintain-maven-plugin:2.4:updateDatabase from plugin realm ClassRealm[plugin>org.dbmaintain:dbmaintain-maven-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.dbmaintain:dbmaintain-maven-plugin:2.4:updateDatabase' with basic configurator -->
+[DEBUG]   (f) autoCreateDbMaintainScriptsTable = true
+[DEBUG]   (s) driverClassName = com.mysql.jdbc.Driver
+[DEBUG]   (s) userName = sagar
+[DEBUG]   (s) password = sagar
+[DEBUG]   (s) url = jdbc:mysql://localhost:3306
+[DEBUG]   (s) schemaNames = TechConf
+[DEBUG]   (f) databases = [org.dbmaintain.maven.plugin.Database@56e70883]
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/SANJAY/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) project = MavenProject: com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT @ D:\personal\project\java\TechConf\main\core-db\pom.xml
+[DEBUG]   (f) remoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (f) scriptLocations = src/main/resources/scripts
+[DEBUG] -- end configuration --
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ db-core ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = D:\personal\project\java\TechConf\main\core-db\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT @ D:\personal\project\java\TechConf\main\core-db\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: D:\personal\project\java\TechConf\main\core-db\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@566622c9
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SYSTEMROOT=C:\windows, env.USERDOMAIN_ROAMINGPROFILE=ARNAV, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.PROMPT=$P$G, os.name=Windows 8.1, env.FP_NO_HOST_CHECK=NO, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0_67\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_67\jre\classes, env.COMPUTERNAME=ARNAV, env.ALLUSERSPROFILE=C:\ProgramData, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, db-mainatain-version=2.4, java.runtime.version=1.7.0_67-b01, env.HOMEPATH=\Users\SANJAY, driver=com.mysql.jdbc.Driver, user.name=SANJAY, maven.build.version=Apache Maven 3.2.3 (33f8c3e1027c3ddde99d3cdebad2656a31e8fdf4; 2014-08-12T02:28:10+05:30), env.PATH=C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\personal\apps\mysql\MySQL Utilities 1.4.3\;D:\personal\apps\mysql\MySQL Utilities 1.4.3\Doctrine extensions for PHP\;D:\personal\apps\maven\apache-maven-3.2.3\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\MongoDB 2.6 Standard\bin;C:\Program Files\TortoiseSVN\bin;D:\personal\apps\ant\apache-ant-1.9.4\bin;C:\Users\SANJAY\AppData\Roaming\npm, user.language=en, env.WINDIR=C:\windows, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0_67\jre\bin, classworlds.conf=D:\personal\apps\maven\apache-maven-3.2.3\bin\m2.conf, url=jdbc:mysql://localhost:3306, java.version=1.7.0_67, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel, user.timezone=Asia/Calcutta, env.TEMP=C:\Users\SANJAY\AppData\Local\Temp, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0_67\jre\lib\endorsed, env.FLEX_HOME=D:\personal\software\flex, sun.cpu.isalist=amd64, env.HOMEDRIVE=C:, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, env.CATALINA_OPTS=-Dfile.encoding=UTF-8 , env.SYSTEMDRIVE=C:, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=51.0, org.slf4j.simpleLogger.defaultLogLevel=debug, user.country=IN, java.home=C:\Program Files\Java\jdk1.7.0_67\jre, env.APPDATA=C:\Users\SANJAY\AppData\Roaming, env.CONFIGSETROOT=C:\windows\ConfigSetRoot, env.PUBLIC=C:\Users\Public, java.vm.info=mixed mode, env.OS=Windows_NT, os.version=6.3, env.=::=::\, env.JAVA_OPTS=-Xms256m -Xmx1024m -XX:MaxPermSize=256m , path.separator=;, java.vm.version=24.65-b04, user=sagar, user.variant=, env.USERPROFILE=C:\Users\SANJAY, env.JAVA_HOME=C:\Program Files\Java\jdk1.7.0_67, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.TMP=C:\Users\SANJAY\AppData\Local\Temp, env.PROGRAMFILES=C:\Program Files, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, user.home=C:\Users\SANJAY, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.=EXITCODE=00000000, env.SESSIONNAME=Console, java.specification.vendor=Oracle Corporation, env.M2_HOME=D:\personal\apps\maven\apache-maven-3.2.3, env.NUMBER_OF_PROCESSORS=4, java.library.path=C:\Program Files\Java\jdk1.7.0_67\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\personal\apps\mysql\MySQL Utilities 1.4.3\;D:\personal\apps\mysql\MySQL Utilities 1.4.3\Doctrine extensions for PHP\;D:\personal\apps\maven\apache-maven-3.2.3\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\MongoDB 2.6 Standard\bin;C:\Program Files\TortoiseSVN\bin;D:\personal\apps\ant\apache-ant-1.9.4\bin;C:\Users\SANJAY\AppData\Roaming\npm;., java.vendor.url=http://java.oracle.com/, env.PSMODULEPATH=C:\windows\system32\WindowsPowerShell\v1.0\Modules\, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.MAVEN_CMD_LINE_ARGS=clean install -X, java.vm.vendor=Oracle Corporation, schema=TechConf, maven.home=D:\personal\apps\maven\apache-maven-3.2.3, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -X, java.class.path=D:\personal\apps\maven\apache-maven-3.2.3\boot\plexus-classworlds-2.5.1.jar, env.PROGRAMW6432=C:\Program Files, env.ANT_OPTS=-Xms256m -Xmx1024m -XX:MaxPermSize=256m , maven.version=3.2.3, env.PROGRAMFILES(X86)=C:\Program Files (x86), env.MAVEN_JAVA_EXE="C:\Program Files\Java\jdk1.7.0_67\bin\java.exe", java.vm.specification.name=Java Virtual Machine Specification, env.LOGONSERVER=\\MicrosoftAccount, java.vm.specification.version=1.7, env.PROCESSOR_ARCHITECTURE=AMD64, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, sun.cpu.endian=little, sun.os.patch.level=, env.HOME=C:\Users\SANJAY, env.ANT_HOME=D:\personal\apps\ant\apache-ant-1.9.4, java.io.tmpdir=C:\Users\SANJAY\AppData\Local\Temp\, env.PROCESSOR_REVISION=4501, db-script=src/main/resources/scripts, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.MAVEN_OPTS=-Xms256m -Xmx1024m -XX:MaxPermSize=256m , env.PROGRAMDATA=C:\ProgramData, env.COMSPEC=C:\windows\system32\cmd.exe, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.7.0_67\jre\lib\ext;C:\windows\Sun\Java\lib\ext, env.=D:=D:\personal\project\java\TechConf\main\core-db, env.LOCALAPPDATA=C:\Users\SANJAY\AppData\Local, user.dir=D:\personal\project\java\TechConf\main\core-db, password=sagar, line.separator=
+, env.CLASSWORLDS_JAR="D:\personal\apps\maven\apache-maven-3.2.3\boot\plexus-classworlds-2.5.1.jar", java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.ERROR_CODE=0, env.USERNAME=SANJAY, file.encoding=Cp1252, env.USERDOMAIN=ARNAV, java.specification.version=1.7, env.=C:=C:\Windows\System32, env.PROCESSOR_LEVEL=6, env.VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\}
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory D:\personal\project\java\TechConf\main\core-db\src\main\resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 3 resources
+[DEBUG] file hibernate.properties has a filtered file extension
+[DEBUG] copy D:\personal\project\java\TechConf\main\core-db\src\main\resources\hibernate\hibernate.properties to D:\personal\project\java\TechConf\main\core-db\target\classes\hibernate\hibernate.properties
+[DEBUG] file reveng.xml has a filtered file extension
+[DEBUG] copy D:\personal\project\java\TechConf\main\core-db\src\main\resources\hibernate\reveng.xml to D:\personal\project\java\TechConf\main\core-db\target\classes\hibernate\reveng.xml
+[DEBUG] file 01_basline_intial_create_db.sql has a filtered file extension
+[DEBUG] copy D:\personal\project\java\TechConf\main\core-db\src\main\resources\scripts\incremental\01_R001\01_basline_intial_create_db.sql to D:\personal\project\java\TechConf\main\core-db\target\classes\scripts\incremental\01_R001\01_basline_intial_create_db.sql
+[DEBUG] no use filter components
+[INFO] 
+[INFO] <<< hibernate3-maven-plugin:2.2:hbm2java (generate-entities) < process-resources @ db-core <<<
+[INFO] 
+[INFO] --- hibernate3-maven-plugin:2.2:hbm2java (generate-entities) @ db-core ---
+[DEBUG] Configuring mojo org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2java from plugin realm ClassRealm[plugin>org.codehaus.mojo:hibernate3-maven-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2java' with basic configurator -->
+[DEBUG]   (f) componentProperties = {ejb3=true, jdk5=true, packagename=com.softwarefactory.techconf.entities, propertyfile=src/main/resources/hibernate/hibernate.properties, revengfile=src/main/resources/hibernate/reveng.xml}
+[DEBUG]   (s) name = hbm2hbmxml
+[DEBUG]   (s) implementation = jdbcconfiguration
+[DEBUG]   (s) outputDirectory = target/generated-resources/hibernate3
+[DEBUG]   (s) name = hbm2java
+[DEBUG]   (s) implementation = jdbcconfiguration
+[DEBUG]   (s) outputDirectory = target/generated-sources/hibernate3
+[DEBUG]   (f) components = [org.codehaus.mojo.hibernate3.exporter.Component@4713caa, org.codehaus.mojo.hibernate3.exporter.Component@2645bf2d]
+[DEBUG]   (f) project = MavenProject: com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT @ D:\personal\project\java\TechConf\main\core-db\pom.xml
+[DEBUG] -- end configuration --
+[INFO] using jdbcconfiguration task.
+[DEBUG] basedir: D:\personal\project\java\TechConf\main\core-db
+[DEBUG] src/main/resources/hibernate.cfg.xml not found within the project. Trying absolute path.
+[INFO] No hibernate configuration file loaded.
+[INFO] Configuration Properties file loaded: D:\personal\project\java\TechConf\main\core-db\src\main\resources\hibernate\hibernate.properties
+[INFO] Override file: D:\personal\project\java\TechConf\main\core-db\src\main\resources\hibernate\reveng.xml
+[DEBUG] trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd]
+[DEBUG] recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[DEBUG] located [http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd] in classpath
+[INFO] Using Hibernate built-in connection pool (not for production use!)
+[INFO] Hibernate connection pool size: 20
+[INFO] autocommit mode: false
+[INFO] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306
+[INFO] connection properties: {user=sagar, password=sagar}
+[DEBUG] opening new JDBC connection
+[DEBUG] created connection to: jdbc:mysql://localhost:3306, Isolation Level: 4
+[INFO] RDBMS: MySQL, version: 5.6.25
+[INFO] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.22 ( Revision: ${bzr.revision-id} )
+[INFO] Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO] Using default transaction strategy (direct JDBC transactions)
+[INFO] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO] Automatic flush during beforeCompletion(): disabled
+[INFO] Automatic session close at end of transaction: disabled
+[INFO] JDBC batch size: 15
+[INFO] JDBC batch updates for versioned data: disabled
+[INFO] Scrollable result sets: enabled
+[DEBUG] Wrap result sets: disabled
+[INFO] JDBC3 getGeneratedKeys(): enabled
+[INFO] Connection release mode: auto
+[INFO] Maximum outer join fetch depth: 2
+[INFO] Default batch fetch size: 1
+[INFO] Generate SQL with comments: disabled
+[INFO] Order SQL updates by primary key: disabled
+[INFO] Order SQL inserts for batching: disabled
+[INFO] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO] Using ASTQueryTranslatorFactory
+[INFO] Query language substitutions: {}
+[INFO] JPA-QL strict compliance: disabled
+[INFO] Second-level cache: enabled
+[INFO] Query cache: disabled
+[INFO] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO] Optimize cache for minimal puts: disabled
+[INFO] Structured second-level cache entries: disabled
+[INFO] Statistics: disabled
+[INFO] Deleted entity synthetic identifier rollback: disabled
+[INFO] Default entity-mode: pojo
+[INFO] Named query checking : enabled
+[DEBUG] getTables(null.techconf.address)
+[INFO] cleaning up connection pool: jdbc:mysql://localhost:3306
+[DEBUG] processing extends queue
+[DEBUG] processing collection mappings
+[DEBUG] processing native query and ResultSetMapping mappings
+[DEBUG] processing association property references
+[DEBUG] processing foreign key constraints
+[DEBUG] org.hibernate.tool.hbm2x.POJOExporter outputdir:D:\personal\project\java\TechConf\main\core-db\target\generated-sources\hibernate3 path: []
+[INFO] 
+[INFO] <<< hibernate3-maven-plugin:2.2:hbm2hbmxml (generate-xml-files) < generate-resources @ db-core <<<
+[INFO] 
+[INFO] --- hibernate3-maven-plugin:2.2:hbm2hbmxml (generate-xml-files) @ db-core ---
+[DEBUG] Configuring mojo org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2hbmxml from plugin realm ClassRealm[plugin>org.codehaus.mojo:hibernate3-maven-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.codehaus.mojo:hibernate3-maven-plugin:2.2:hbm2hbmxml' with basic configurator -->
+[DEBUG]   (f) componentProperties = {ejb3=true, jdk5=true, packagename=com.softwarefactory.techconf.entities, propertyfile=src/main/resources/hibernate/hibernate.properties, revengfile=src/main/resources/hibernate/reveng.xml}
+[DEBUG]   (s) name = hbm2hbmxml
+[DEBUG]   (s) implementation = jdbcconfiguration
+[DEBUG]   (s) outputDirectory = target/generated-resources/hibernate3
+[DEBUG]   (s) name = hbm2java
+[DEBUG]   (s) implementation = jdbcconfiguration
+[DEBUG]   (s) outputDirectory = target/generated-sources/hibernate3
+[DEBUG]   (f) components = [org.codehaus.mojo.hibernate3.exporter.Component@629608df, org.codehaus.mojo.hibernate3.exporter.Component@68209b09]
+[DEBUG]   (f) project = MavenProject: com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT @ D:\personal\project\java\TechConf\main\core-db\pom.xml
+[DEBUG] -- end configuration --
+[INFO] using jdbcconfiguration task.
+[DEBUG] basedir: D:\personal\project\java\TechConf\main\core-db
+[DEBUG] src/main/resources/hibernate.cfg.xml not found within the project. Trying absolute path.
+[INFO] No hibernate configuration file loaded.
+[INFO] Configuration Properties file loaded: D:\personal\project\java\TechConf\main\core-db\src\main\resources\hibernate\hibernate.properties
+[INFO] Override file: D:\personal\project\java\TechConf\main\core-db\src\main\resources\hibernate\reveng.xml
+[DEBUG] trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd]
+[DEBUG] recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[DEBUG] located [http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd] in classpath
+[INFO] Using Hibernate built-in connection pool (not for production use!)
+[INFO] Hibernate connection pool size: 20
+[INFO] autocommit mode: false
+[INFO] using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306
+[INFO] connection properties: {user=sagar, password=sagar}
+[DEBUG] opening new JDBC connection
+[DEBUG] created connection to: jdbc:mysql://localhost:3306, Isolation Level: 4
+[INFO] RDBMS: MySQL, version: 5.6.25
+[INFO] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.22 ( Revision: ${bzr.revision-id} )
+[INFO] Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO] Using default transaction strategy (direct JDBC transactions)
+[INFO] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO] Automatic flush during beforeCompletion(): disabled
+[INFO] Automatic session close at end of transaction: disabled
+[INFO] JDBC batch size: 15
+[INFO] JDBC batch updates for versioned data: disabled
+[INFO] Scrollable result sets: enabled
+[DEBUG] Wrap result sets: disabled
+[INFO] JDBC3 getGeneratedKeys(): enabled
+[INFO] Connection release mode: auto
+[INFO] Maximum outer join fetch depth: 2
+[INFO] Default batch fetch size: 1
+[INFO] Generate SQL with comments: disabled
+[INFO] Order SQL updates by primary key: disabled
+[INFO] Order SQL inserts for batching: disabled
+[INFO] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO] Using ASTQueryTranslatorFactory
+[INFO] Query language substitutions: {}
+[INFO] JPA-QL strict compliance: disabled
+[INFO] Second-level cache: enabled
+[INFO] Query cache: disabled
+[INFO] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO] Optimize cache for minimal puts: disabled
+[INFO] Structured second-level cache entries: disabled
+[INFO] Statistics: disabled
+[INFO] Deleted entity synthetic identifier rollback: disabled
+[INFO] Default entity-mode: pojo
+[INFO] Named query checking : enabled
+[DEBUG] getTables(null.techconf.address)
+[INFO] cleaning up connection pool: jdbc:mysql://localhost:3306
+[DEBUG] processing extends queue
+[DEBUG] processing collection mappings
+[DEBUG] processing native query and ResultSetMapping mappings
+[DEBUG] processing association property references
+[DEBUG] processing foreign key constraints
+[DEBUG] org.hibernate.tool.hbm2x.HibernateMappingExporter outputdir:D:\personal\project\java\TechConf\main\core-db\target\generated-resources\hibernate3 path: []
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ db-core ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = D:\personal\project\java\TechConf\main\core-db\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT @ D:\personal\project\java\TechConf\main\core-db\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: D:\personal\project\java\TechConf\main\core-db\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@566622c9
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SYSTEMROOT=C:\windows, env.USERDOMAIN_ROAMINGPROFILE=ARNAV, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.PROMPT=$P$G, os.name=Windows 8.1, env.FP_NO_HOST_CHECK=NO, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0_67\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_67\jre\classes, env.COMPUTERNAME=ARNAV, env.ALLUSERSPROFILE=C:\ProgramData, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, db-mainatain-version=2.4, java.runtime.version=1.7.0_67-b01, env.HOMEPATH=\Users\SANJAY, driver=com.mysql.jdbc.Driver, user.name=SANJAY, maven.build.version=Apache Maven 3.2.3 (33f8c3e1027c3ddde99d3cdebad2656a31e8fdf4; 2014-08-12T02:28:10+05:30), env.PATH=C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\personal\apps\mysql\MySQL Utilities 1.4.3\;D:\personal\apps\mysql\MySQL Utilities 1.4.3\Doctrine extensions for PHP\;D:\personal\apps\maven\apache-maven-3.2.3\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\MongoDB 2.6 Standard\bin;C:\Program Files\TortoiseSVN\bin;D:\personal\apps\ant\apache-ant-1.9.4\bin;C:\Users\SANJAY\AppData\Roaming\npm, user.language=en, env.WINDIR=C:\windows, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0_67\jre\bin, classworlds.conf=D:\personal\apps\maven\apache-maven-3.2.3\bin\m2.conf, url=jdbc:mysql://localhost:3306, java.version=1.7.0_67, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel, user.timezone=Asia/Calcutta, env.TEMP=C:\Users\SANJAY\AppData\Local\Temp, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0_67\jre\lib\endorsed, env.FLEX_HOME=D:\personal\software\flex, sun.cpu.isalist=amd64, env.HOMEDRIVE=C:, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, env.CATALINA_OPTS=-Dfile.encoding=UTF-8 , env.SYSTEMDRIVE=C:, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=51.0, org.slf4j.simpleLogger.defaultLogLevel=debug, user.country=IN, java.home=C:\Program Files\Java\jdk1.7.0_67\jre, env.APPDATA=C:\Users\SANJAY\AppData\Roaming, env.CONFIGSETROOT=C:\windows\ConfigSetRoot, env.PUBLIC=C:\Users\Public, java.vm.info=mixed mode, env.OS=Windows_NT, os.version=6.3, env.=::=::\, env.JAVA_OPTS=-Xms256m -Xmx1024m -XX:MaxPermSize=256m , path.separator=;, java.vm.version=24.65-b04, user=sagar, user.variant=, env.USERPROFILE=C:\Users\SANJAY, env.JAVA_HOME=C:\Program Files\Java\jdk1.7.0_67, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.TMP=C:\Users\SANJAY\AppData\Local\Temp, env.PROGRAMFILES=C:\Program Files, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, user.home=C:\Users\SANJAY, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.=EXITCODE=00000000, env.SESSIONNAME=Console, java.specification.vendor=Oracle Corporation, env.M2_HOME=D:\personal\apps\maven\apache-maven-3.2.3, env.NUMBER_OF_PROCESSORS=4, java.library.path=C:\Program Files\Java\jdk1.7.0_67\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\personal\apps\mysql\MySQL Utilities 1.4.3\;D:\personal\apps\mysql\MySQL Utilities 1.4.3\Doctrine extensions for PHP\;D:\personal\apps\maven\apache-maven-3.2.3\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\MongoDB 2.6 Standard\bin;C:\Program Files\TortoiseSVN\bin;D:\personal\apps\ant\apache-ant-1.9.4\bin;C:\Users\SANJAY\AppData\Roaming\npm;., java.vendor.url=http://java.oracle.com/, env.PSMODULEPATH=C:\windows\system32\WindowsPowerShell\v1.0\Modules\, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.MAVEN_CMD_LINE_ARGS=clean install -X, java.vm.vendor=Oracle Corporation, schema=TechConf, maven.home=D:\personal\apps\maven\apache-maven-3.2.3, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -X, java.class.path=D:\personal\apps\maven\apache-maven-3.2.3\boot\plexus-classworlds-2.5.1.jar, env.PROGRAMW6432=C:\Program Files, env.ANT_OPTS=-Xms256m -Xmx1024m -XX:MaxPermSize=256m , maven.version=3.2.3, env.PROGRAMFILES(X86)=C:\Program Files (x86), env.MAVEN_JAVA_EXE="C:\Program Files\Java\jdk1.7.0_67\bin\java.exe", java.vm.specification.name=Java Virtual Machine Specification, env.LOGONSERVER=\\MicrosoftAccount, java.vm.specification.version=1.7, env.PROCESSOR_ARCHITECTURE=AMD64, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, sun.cpu.endian=little, sun.os.patch.level=, env.HOME=C:\Users\SANJAY, env.ANT_HOME=D:\personal\apps\ant\apache-ant-1.9.4, java.io.tmpdir=C:\Users\SANJAY\AppData\Local\Temp\, env.PROCESSOR_REVISION=4501, db-script=src/main/resources/scripts, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.MAVEN_OPTS=-Xms256m -Xmx1024m -XX:MaxPermSize=256m , env.PROGRAMDATA=C:\ProgramData, env.COMSPEC=C:\windows\system32\cmd.exe, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.7.0_67\jre\lib\ext;C:\windows\Sun\Java\lib\ext, env.=D:=D:\personal\project\java\TechConf\main\core-db, env.LOCALAPPDATA=C:\Users\SANJAY\AppData\Local, user.dir=D:\personal\project\java\TechConf\main\core-db, password=sagar, line.separator=
+, env.CLASSWORLDS_JAR="D:\personal\apps\maven\apache-maven-3.2.3\boot\plexus-classworlds-2.5.1.jar", java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.ERROR_CODE=0, env.USERNAME=SANJAY, file.encoding=Cp1252, env.USERDOMAIN=ARNAV, java.specification.version=1.7, env.=C:=C:\Windows\System32, env.PROCESSOR_LEVEL=6, env.VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\}
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory D:\personal\project\java\TechConf\main\core-db\src\main\resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 3 resources
+[DEBUG] file hibernate.properties has a filtered file extension
+[DEBUG] copy D:\personal\project\java\TechConf\main\core-db\src\main\resources\hibernate\hibernate.properties to D:\personal\project\java\TechConf\main\core-db\target\classes\hibernate\hibernate.properties
+[DEBUG] file reveng.xml has a filtered file extension
+[DEBUG] copy D:\personal\project\java\TechConf\main\core-db\src\main\resources\hibernate\reveng.xml to D:\personal\project\java\TechConf\main\core-db\target\classes\hibernate\reveng.xml
+[DEBUG] file 01_basline_intial_create_db.sql has a filtered file extension
+[DEBUG] copy D:\personal\project\java\TechConf\main\core-db\src\main\resources\scripts\incremental\01_R001\01_basline_intial_create_db.sql to D:\personal\project\java\TechConf\main\core-db\target\classes\scripts\incremental\01_R001\01_basline_intial_create_db.sql
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ db-core ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=16, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=250, DefaultDependencyCollector.transformTime=16}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.1:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.2:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          log4j:log4j:jar:1.2.12:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.12
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-toolchain:jar:1.0
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.5.5
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-classworlds:jar:2.2.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = D:\personal\project\java\TechConf\main\core-db
+[DEBUG]   (f) buildDirectory = D:\personal\project\java\TechConf\main\core-db\target
+[DEBUG]   (f) classpathElements = [D:\personal\project\java\TechConf\main\core-db\target\classes]
+[DEBUG]   (f) compileSourceRoots = [D:\personal\project\java\TechConf\main\core-db\src\main\java, D:\personal\project\java\TechConf\main\core-db\target\generated-sources\hibernate3]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = D:\personal\project\java\TechConf\main\core-db\target\generated-sources\annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = D:\personal\project\java\TechConf\main\core-db\target\classes
+[DEBUG]   (f) projectArtifact = com.softwarefactory.techconf:db-core:jar:0.0.1-SNAPSHOT
+[INFO] cleaning up connection pool: jdbc:mysql://localhost:3306
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.5
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.5
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@566622c9
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@566622c9
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[INFO] cleaning up connection pool: jdbc:mysql://localhost:3306
+[INFO] cleaning up connection pool: jdbc:mysql://localhost:3306
+[INFO] cleaning up connection pool: jdbc:mysql://localhost:3306
+[DEBUG] Source directories: [D:\personal\project\java\TechConf\main\core-db\src\main\java]
+[DEBUG] Classpath: [D:\personal\project\java\TechConf\main\core-db\target\classes]
+[DEBUG] Output directory: D:\personal\project\java\TechConf\main\core-db\target\classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ db-core ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:testResources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = D:\personal\project\java\TechConf\main\core-db\target\test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT @ D:\personal\project\java\TechConf\main\core-db\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: D:\personal\project\java\TechConf\main\core-db\src\test\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@566622c9
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SYSTEMROOT=C:\windows, env.USERDOMAIN_ROAMINGPROFILE=ARNAV, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.PROMPT=$P$G, os.name=Windows 8.1, env.FP_NO_HOST_CHECK=NO, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0_67\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_67\jre\classes, env.COMPUTERNAME=ARNAV, env.ALLUSERSPROFILE=C:\ProgramData, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, db-mainatain-version=2.4, java.runtime.version=1.7.0_67-b01, env.HOMEPATH=\Users\SANJAY, driver=com.mysql.jdbc.Driver, user.name=SANJAY, maven.build.version=Apache Maven 3.2.3 (33f8c3e1027c3ddde99d3cdebad2656a31e8fdf4; 2014-08-12T02:28:10+05:30), env.PATH=C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\personal\apps\mysql\MySQL Utilities 1.4.3\;D:\personal\apps\mysql\MySQL Utilities 1.4.3\Doctrine extensions for PHP\;D:\personal\apps\maven\apache-maven-3.2.3\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\MongoDB 2.6 Standard\bin;C:\Program Files\TortoiseSVN\bin;D:\personal\apps\ant\apache-ant-1.9.4\bin;C:\Users\SANJAY\AppData\Roaming\npm, user.language=en, env.WINDIR=C:\windows, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0_67\jre\bin, classworlds.conf=D:\personal\apps\maven\apache-maven-3.2.3\bin\m2.conf, url=jdbc:mysql://localhost:3306, java.version=1.7.0_67, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel, user.timezone=Asia/Calcutta, env.TEMP=C:\Users\SANJAY\AppData\Local\Temp, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0_67\jre\lib\endorsed, env.FLEX_HOME=D:\personal\software\flex, sun.cpu.isalist=amd64, env.HOMEDRIVE=C:, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, env.CATALINA_OPTS=-Dfile.encoding=UTF-8 , env.SYSTEMDRIVE=C:, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=51.0, org.slf4j.simpleLogger.defaultLogLevel=debug, user.country=IN, java.home=C:\Program Files\Java\jdk1.7.0_67\jre, env.APPDATA=C:\Users\SANJAY\AppData\Roaming, env.CONFIGSETROOT=C:\windows\ConfigSetRoot, env.PUBLIC=C:\Users\Public, java.vm.info=mixed mode, env.OS=Windows_NT, os.version=6.3, env.=::=::\, env.JAVA_OPTS=-Xms256m -Xmx1024m -XX:MaxPermSize=256m , path.separator=;, java.vm.version=24.65-b04, user=sagar, user.variant=, env.USERPROFILE=C:\Users\SANJAY, env.JAVA_HOME=C:\Program Files\Java\jdk1.7.0_67, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.TMP=C:\Users\SANJAY\AppData\Local\Temp, env.PROGRAMFILES=C:\Program Files, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, user.home=C:\Users\SANJAY, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.=EXITCODE=00000000, env.SESSIONNAME=Console, java.specification.vendor=Oracle Corporation, env.M2_HOME=D:\personal\apps\maven\apache-maven-3.2.3, env.NUMBER_OF_PROCESSORS=4, java.library.path=C:\Program Files\Java\jdk1.7.0_67\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\personal\apps\mysql\MySQL Utilities 1.4.3\;D:\personal\apps\mysql\MySQL Utilities 1.4.3\Doctrine extensions for PHP\;D:\personal\apps\maven\apache-maven-3.2.3\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\nodejs\;C:\Program Files (x86)\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\MongoDB 2.6 Standard\bin;C:\Program Files\TortoiseSVN\bin;D:\personal\apps\ant\apache-ant-1.9.4\bin;C:\Users\SANJAY\AppData\Roaming\npm;., java.vendor.url=http://java.oracle.com/, env.PSMODULEPATH=C:\windows\system32\WindowsPowerShell\v1.0\Modules\, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.MAVEN_CMD_LINE_ARGS=clean install -X, java.vm.vendor=Oracle Corporation, schema=TechConf, maven.home=D:\personal\apps\maven\apache-maven-3.2.3, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -X, java.class.path=D:\personal\apps\maven\apache-maven-3.2.3\boot\plexus-classworlds-2.5.1.jar, env.PROGRAMW6432=C:\Program Files, env.ANT_OPTS=-Xms256m -Xmx1024m -XX:MaxPermSize=256m , maven.version=3.2.3, env.PROGRAMFILES(X86)=C:\Program Files (x86), env.MAVEN_JAVA_EXE="C:\Program Files\Java\jdk1.7.0_67\bin\java.exe", java.vm.specification.name=Java Virtual Machine Specification, env.LOGONSERVER=\\MicrosoftAccount, java.vm.specification.version=1.7, env.PROCESSOR_ARCHITECTURE=AMD64, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, sun.cpu.endian=little, sun.os.patch.level=, env.HOME=C:\Users\SANJAY, env.ANT_HOME=D:\personal\apps\ant\apache-ant-1.9.4, java.io.tmpdir=C:\Users\SANJAY\AppData\Local\Temp\, env.PROCESSOR_REVISION=4501, db-script=src/main/resources/scripts, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.MAVEN_OPTS=-Xms256m -Xmx1024m -XX:MaxPermSize=256m , env.PROGRAMDATA=C:\ProgramData, env.COMSPEC=C:\windows\system32\cmd.exe, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.7.0_67\jre\lib\ext;C:\windows\Sun\Java\lib\ext, env.=D:=D:\personal\project\java\TechConf\main\core-db, env.LOCALAPPDATA=C:\Users\SANJAY\AppData\Local, user.dir=D:\personal\project\java\TechConf\main\core-db, password=sagar, line.separator=
+, env.CLASSWORLDS_JAR="D:\personal\apps\maven\apache-maven-3.2.3\boot\plexus-classworlds-2.5.1.jar", java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.ERROR_CODE=0, env.USERNAME=SANJAY, file.encoding=Cp1252, env.USERDOMAIN=ARNAV, java.specification.version=1.7, env.=C:=C:\Windows\System32, env.PROCESSOR_LEVEL=6, env.VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\}
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory D:\personal\project\java\TechConf\main\core-db\src\test\resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ db-core ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = D:\personal\project\java\TechConf\main\core-db
+[DEBUG]   (f) buildDirectory = D:\personal\project\java\TechConf\main\core-db\target
+[DEBUG]   (f) classpathElements = [D:\personal\project\java\TechConf\main\core-db\target\test-classes, D:\personal\project\java\TechConf\main\core-db\target\classes]
+[DEBUG]   (f) compileSourceRoots = [D:\personal\project\java\TechConf\main\core-db\src\test\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = D:\personal\project\java\TechConf\main\core-db\target\generated-test-sources\test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile {execution: default-testCompile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = D:\personal\project\java\TechConf\main\core-db\target\test-classes
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.5
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.5
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@566622c9
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@566622c9
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [D:\personal\project\java\TechConf\main\core-db\src\test\java]
+[DEBUG] Classpath: [D:\personal\project\java\TechConf\main\core-db\target\test-classes
+ D:\personal\project\java\TechConf\main\core-db\target\classes]
+[DEBUG] Output directory: D:\personal\project\java\TechConf\main\core-db\target\test-classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ db-core ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=132, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=27, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=16, ConflictResolver.conflictItemCount=77, DefaultDependencyCollector.collectTime=94, DefaultDependencyCollector.transformTime=16}
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.12.4:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.surefire:surefire-booter:jar:2.12.4:compile
+[DEBUG]       org.apache.maven.surefire:surefire-api:jar:2.12.4:compile
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:2.12.4:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.1:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:1.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.8:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:test
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.12.4
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.12.4
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.12.4
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:2.12.4
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.8
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: junit:junit:jar:3.8.1
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1
+[DEBUG]   Excluded: org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.12.4, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test' with basic configurator -->
+[DEBUG]   (s) basedir = D:\personal\project\java\TechConf\main\core-db
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (s) classesDirectory = D:\personal\project\java\TechConf\main\core-db\target\classes
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (s) forkMode = once
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (s) localRepository =       id: local
+      url: file:///C:/Users/SANJAY/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.12.4:, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.12.4:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.12.4:compile, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:2.12.4:compile, org.apache.commons:commons-lang3=org.apache.commons:commons-lang3:jar:3.1:compile, org.apache.maven.shared:maven-common-artifact-filters=org.apache.maven.shared:maven-common-artifact-filters:jar:1.3:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:3.0.8:compile, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile, org.apache.maven.plugin-tools:maven-plugin-annotations=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1:compile}
+[DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.HelpMojo', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:help'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test'
+---
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) projectArtifactMap = {}
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) remoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+]
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = D:\personal\project\java\TechConf\main\core-db\target\surefire-reports
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (s) skip = false
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) testClassesDirectory = D:\personal\project\java\TechConf\main\core-db\target\test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = D:\personal\project\java\TechConf\main\core-db\src\test\java
+[DEBUG]   (s) trimStackTrace = true
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = D:\personal\project\java\TechConf\main\core-db
+[DEBUG]   (s) project = MavenProject: com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT @ D:\personal\project\java\TechConf\main\core-db\pom.xml
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@566622c9
+[DEBUG] -- end configuration --
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ db-core ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=74, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=28, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=16, ConflictResolver.conflictItemCount=70, DefaultDependencyCollector.collectTime=47, DefaultDependencyCollector.transformTime=16}
+[DEBUG] org.apache.maven.plugins:maven-jar-plugin:jar:2.4:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:runtime
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.5:compile
+[DEBUG]       org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]             org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]          commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]          org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]          org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]          org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.15:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.0.2:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-jar-plugin:jar:2.4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.5
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.15
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.2
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-jar-plugin:2.4:jar from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-jar-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-jar-plugin:2.4:jar' with basic configurator -->
+[DEBUG]   (f) classesDirectory = D:\personal\project\java\TechConf\main\core-db\target\classes
+[DEBUG]   (f) defaultManifestFile = D:\personal\project\java\TechConf\main\core-db\target\classes\META-INF\MANIFEST.MF
+[DEBUG]   (f) finalName = db-core-0.0.1-SNAPSHOT
+[DEBUG]   (f) forceCreation = false
+[DEBUG]   (f) outputDirectory = D:\personal\project\java\TechConf\main\core-db\target
+[DEBUG]   (f) project = MavenProject: com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT @ D:\personal\project\java\TechConf\main\core-db\pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@566622c9
+[DEBUG]   (f) skipIfEmpty = false
+[DEBUG]   (f) useDefaultManifestFile = false
+[DEBUG] -- end configuration --
+[DEBUG] isUp2date: false (Destination D:\personal\project\java\TechConf\main\core-db\target\db-core-0.0.1-SNAPSHOT.jar not found.)
+[INFO] Building jar: D:\personal\project\java\TechConf\main\core-db\target\db-core-0.0.1-SNAPSHOT.jar
+[DEBUG] adding directory META-INF/
+[DEBUG] adding entry META-INF/MANIFEST.MF
+[DEBUG] adding directory hibernate/
+[DEBUG] adding directory scripts/
+[DEBUG] adding directory scripts/incremental/
+[DEBUG] adding directory scripts/incremental/01_R001/
+[DEBUG] adding entry hibernate/hibernate.properties
+[DEBUG] adding entry hibernate/reveng.xml
+[DEBUG] adding entry scripts/incremental/01_R001/01_basline_intial_create_db.sql
+[DEBUG] adding directory META-INF/maven/
+[DEBUG] adding directory META-INF/maven/com.softwarefactory.techconf/
+[DEBUG] adding directory META-INF/maven/com.softwarefactory.techconf/db-core/
+[DEBUG] adding entry META-INF/maven/com.softwarefactory.techconf/db-core/pom.xml
+[DEBUG] adding entry META-INF/maven/com.softwarefactory.techconf/db-core/pom.properties
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ db-core ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=38, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=15, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=35, DefaultDependencyCollector.collectTime=31, DefaultDependencyCollector.transformTime=0}
+[DEBUG] org.apache.maven.plugins:maven-install-plugin:jar:2.4:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-digest:jar:1.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-install-plugin:jar:2.4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-digest:jar:1.0
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-install-plugin:2.4:install from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-install-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-install-plugin:2.4:install' with basic configurator -->
+[DEBUG]   (f) artifact = com.softwarefactory.techconf:db-core:jar:0.0.1-SNAPSHOT
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (f) createChecksum = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/SANJAY/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) packaging = jar
+[DEBUG]   (f) pomFile = D:\personal\project\java\TechConf\main\core-db\pom.xml
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG] -- end configuration --
+[INFO] Installing D:\personal\project\java\TechConf\main\core-db\target\db-core-0.0.1-SNAPSHOT.jar to C:\Users\SANJAY\.m2\repository\com\softwarefactory\techconf\db-core\0.0.1-SNAPSHOT\db-core-0.0.1-SNAPSHOT.jar
+[DEBUG] Writing tracking file C:\Users\SANJAY\.m2\repository\com\softwarefactory\techconf\db-core\0.0.1-SNAPSHOT\_remote.repositories
+[INFO] Installing D:\personal\project\java\TechConf\main\core-db\pom.xml to C:\Users\SANJAY\.m2\repository\com\softwarefactory\techconf\db-core\0.0.1-SNAPSHOT\db-core-0.0.1-SNAPSHOT.pom
+[DEBUG] Writing tracking file C:\Users\SANJAY\.m2\repository\com\softwarefactory\techconf\db-core\0.0.1-SNAPSHOT\_remote.repositories
+[DEBUG] Installing com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT/maven-metadata.xml to C:\Users\SANJAY\.m2\repository\com\softwarefactory\techconf\db-core\0.0.1-SNAPSHOT\maven-metadata-local.xml
+[DEBUG] Installing com.softwarefactory.techconf:db-core/maven-metadata.xml to C:\Users\SANJAY\.m2\repository\com\softwarefactory\techconf\db-core\maven-metadata-local.xml
+[INFO] 
+[INFO] --- dbmaintain-maven-plugin:2.4:createScriptArchive (create-script-archive) @ db-core ---
+[DEBUG] Configuring mojo org.dbmaintain:dbmaintain-maven-plugin:2.4:createScriptArchive from plugin realm ClassRealm[plugin>org.dbmaintain:dbmaintain-maven-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@3082f392]
+[DEBUG] Configuring mojo 'org.dbmaintain:dbmaintain-maven-plugin:2.4:createScriptArchive' with basic configurator -->
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/SANJAY/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) project = MavenProject: com.softwarefactory.techconf:db-core:0.0.1-SNAPSHOT @ D:\personal\project\java\TechConf\main\core-db\pom.xml
+[DEBUG]   (f) qualifier = dbmaintain
+[DEBUG]   (f) remoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (f) scriptLocations = src/main/resources/scripts
+[DEBUG] -- end configuration --
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 24.201 s
+[INFO] Finished at: 2015-06-15T21:11:00+05:30
+[INFO] Final Memory: 13M/246M
+[INFO] ------------------------------------------------------------------------

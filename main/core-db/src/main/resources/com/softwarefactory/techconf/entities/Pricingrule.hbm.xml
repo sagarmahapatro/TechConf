@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 16 Jun, 2015 4:02:10 AM by Hibernate Tools 3.2.2.GA -->
+<hibernate-mapping>
+    <class name="com.softwarefactory.techconf.entities.Pricingrule" table="pricingrule" catalog="TechConf">
+        <id name="pkId" type="java.lang.Integer">
+            <column name="PK_ID" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="NAME" length="16" not-null="true" unique="true" />
+        </property>
+        <property name="priority" type="java.lang.Integer">
+            <column name="PRIORITY" />
+        </property>
+        <property name="active" type="java.lang.Boolean">
+            <column name="ACTIVE" />
+        </property>
+        <property name="fkConferenceId" type="int">
+            <column name="FK_CONFERENCE_ID" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

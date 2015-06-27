@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 16 Jun, 2015 4:02:10 AM by Hibernate Tools 3.2.2.GA -->
+<hibernate-mapping>
+    <class name="com.softwarefactory.techconf.entities.News" table="news" catalog="TechConf">
+        <id name="pkId" type="java.lang.Integer">
+            <column name="PK_ID" />
+            <generator class="identity" />
+        </id>
+        <property name="date" type="timestamp">
+            <column name="DATE" length="19" not-null="true" />
+        </property>
+        <property name="removeon" type="timestamp">
+            <column name="REMOVEON" length="19" not-null="true" />
+        </property>
+        <property name="createdon" type="timestamp">
+            <column name="CREATEDON" length="19" not-null="true" />
+        </property>
+        <property name="published" type="boolean">
+            <column name="PUBLISHED" not-null="true" />
+        </property>
+        <property name="title" type="string">
+            <column name="TITLE" length="32" />
+        </property>
+        <property name="body" type="string">
+            <column name="BODY" />
+        </property>
+        <property name="global" type="java.lang.Boolean">
+            <column name="GLOBAL" />
+        </property>
+        <property name="fkUserId" type="int">
+            <column name="FK_USER_ID" not-null="true" />
+        </property>
+        <property name="fkConferenceId" type="java.lang.Integer">
+            <column name="FK_CONFERENCE_ID" />
+        </property>
+    </class>
+</hibernate-mapping>

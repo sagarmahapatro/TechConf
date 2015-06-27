@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 16 Jun, 2015 4:02:10 AM by Hibernate Tools 3.2.2.GA -->
+<hibernate-mapping>
+    <class name="com.softwarefactory.techconf.entities.Reminder" table="reminder" catalog="TechConf">
+        <id name="pkId" type="java.lang.Integer">
+            <column name="PK_ID" />
+            <generator class="identity" />
+        </id>
+        <property name="message" type="string">
+            <column name="MESSAGE" length="64" />
+        </property>
+        <property name="dateandtime" type="timestamp">
+            <column name="DATEANDTIME" length="19" not-null="true" />
+        </property>
+        <property name="fkScheduleentryId" type="int">
+            <column name="FK_SCHEDULEENTRY_ID" not-null="true" />
+        </property>
+        <property name="fkUserId" type="int">
+            <column name="FK_USER_ID" not-null="true" />
+        </property>
+        <property name="sent" type="java.lang.Boolean">
+            <column name="SENT" />
+        </property>
+    </class>
+</hibernate-mapping>

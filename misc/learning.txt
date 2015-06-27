@@ -1,0 +1,9 @@
+C:\> cd "D:\personal\apps\mysql\MySQL Server 5.6\bin"
+C:\> mysqld --init-file=D:\\personal\\restpasscode.txt
+
+CREATE USER 'sagar'@'localhost'
+SET PASSWORD FOR 'sagar'@'localhost' = PASSWORD('sagar');
+
+GRANT ALL ON *.* TO 'sagar'@'localhost';
+
+git reset (undo add)
