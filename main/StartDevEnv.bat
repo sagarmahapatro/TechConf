@@ -1,10 +1,17 @@
 @echo off
-echo starting dev enviroment
+FOR /F "tokens=1,2 delims==" %%G IN (config.properties) DO (set %%G=%%H) 
+echo ******************************************************************
+echo starting dev enviroment 
+echo %tomcat%  
+echo %mysql%  
 set curDr=%~dp0
 echo %curDr%
+echo ******************************************************************
 echo starting Tomcat
-set "CATALINA_HOME=%curDr%..\dependencies\tomcat\8.0.23-win-64"
-rem %curDr%"..\dependencies\tomcat\8.0.23-win-64\bin\startup"
+set "CATALINA_HOME=%curDr%%tomcat%"
+rem Start ""  %curDr%"%tomcat%\bin\startup"
+echo ******************************************************************
 echo starting MySQL
-%curDr%"..\dependencies\my-sql\5.6.25-win-64\bin\mysqld" 
+Start ""  %curDr%"%mysql%\bin\mysqld" 
+echo ******************************************************************
 

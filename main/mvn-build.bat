@@ -1,4 +1,4 @@
 @echo off
-set "JAVA_HOME=D:\personal\apps\java-1.8"
+set "JAVA_HOME=C:\Program Files\Java\jdk1.7.0_75"
 set JAVA_HOME
-mvn clean install
+mvn clean install -X

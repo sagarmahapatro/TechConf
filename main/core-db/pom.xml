@@ -25,19 +25,19 @@
 				<artifactId>dbmaintain-maven-plugin</artifactId>
 				<version>${db-mainatain-version}</version>
 				<configuration>
+					<autoCreateDbMaintainScriptsTable>true</autoCreateDbMaintainScriptsTable>
+					<scriptLocations>${db-script}</scriptLocations>
+					<qualifier>dbmaintain</qualifier>
 					<databases>
 						<database>
+							<dialect>mysql</dialect>
 							<driverClassName>${driver}</driverClassName>
 							<userName>${user}</userName>
 							<password>${user}</password>
 							<url>${url}</url>
 							<schemaNames>${schema}</schemaNames>
 						</database>
-
-					</databases> 
-					<autoCreateDbMaintainScriptsTable>true</autoCreateDbMaintainScriptsTable>
-					<scriptLocations>${db-script}</scriptLocations>
-					<qualifier>dbmaintain</qualifier>					
+					</databases> 					
 				</configuration>
 				<executions>
 					<execution>
