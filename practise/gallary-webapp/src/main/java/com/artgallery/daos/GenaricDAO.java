@@ -2,6 +2,7 @@ package com.artgallery.daos;
 
 import java.util.List;
 
+import com.artgallery.daos.contracts.IGenaricDAO;
 import com.artgallery.domain.DomainObject;
 
 public class GenaricDAO<T extends DomainObject>  implements IGenaricDAO<T>{
