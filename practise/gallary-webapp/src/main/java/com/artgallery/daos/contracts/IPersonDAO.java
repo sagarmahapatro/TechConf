@@ -8,6 +8,6 @@ import com.artgallery.domain.Person;
 
 public interface IPersonDAO extends IGenaricDAO<Person> {
 	public Person getPersonByUserMailID(String mailID) throws EntityNotFoundException, MoreThenOneUserFound;
-	public Person getPersonByUsername(String username) throws EntityNotFoundException;
-	public Person authenticatePerson(String username, String password) throws AuthenticationException;
+	public Person getPersonByUsername(String firstName, String lastName) throws EntityNotFoundException,MoreThenOneUserFound;
+	public Person authenticatePerson(String firstName, String lastName, String password) throws AuthenticationException;
 }

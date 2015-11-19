@@ -8,12 +8,15 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.artgallery.daos.contracts.IPersonDAO;
 import com.artgallery.daos.contracts.IRoleLevelDAO;
+import com.artgallery.daos.exceptions.AuthenticationException;
 import com.artgallery.daos.exceptions.EntityNotFoundException;
 import com.artgallery.daos.exceptions.MoreThenOneUserFound;
 import com.artgallery.domain.Person;
 import com.artgallery.domain.RoleLevel;
 import com.artgallery.services.contracts.UserSevice;
 import com.artgallery.services.dto.UserDetailDTO;
+import com.artgallery.services.dto.mapper.UserDetailMapper;
+import com.artgallery.services.exceptions.InvalidResultException;
 import com.artgallery.services.exceptions.UserAlradyExistException;
 
 @Service("userService")
@@ -29,14 +32,36 @@ public class UserSeviceImpl implements UserSevice {
   @Qualifier("roleLevelDAOJpa")
   IRoleLevelDAO roleLevelDAO;
 
-  public Boolean authenticateUser(String username, String passcode) {
-    logger.debug(" authenticateUser " + personDao);
+  public UserSeviceImpl() {
 
-    return null;
   }
 
-  public UserDetailDTO getUserDetail(String authToken) {
-    return null;
+  public UserSeviceImpl(IPersonDAO personDao, IRoleLevelDAO roleLevelDAO) {
+
+  }
+
+  public Boolean authenticateUser(String firstName, String lastName, String passcode) {
+    logger.debug(" authenticateUser " + personDao);
+    Person person = null;
+    try {
+      person = personDao.authenticatePerson(firstName, lastName, passcode);
+    } catch (AuthenticationException e) {
+
+    }
+    return person != null;
+  }
+
+  public UserDetailDTO getUserDetail(String firstName, String lastName)
+      throws InvalidResultException {
+    logger.debug(" authenticateUser " + personDao);
+    Person person = null;
+    try {
+      person = personDao.getPersonByUsername(firstName, lastName);
+    } catch (EntityNotFoundException | MoreThenOneUserFound mtou) {
+      throw new InvalidResultException(mtou);
+    }
+    UserDetailDTO userDetailDTO = UserDetailMapper.INSTANCE.map(person);
+    return userDetailDTO;
   }
 
   @Transactional
@@ -64,7 +89,7 @@ public class UserSeviceImpl implements UserSevice {
     roleLevel.setRoll(userDetailDTO.getRole());
 
     roleLevelDAO.save(roleLevel);
-    person.setRoleLevel(roleLevel);
+   // person.setRoleLevel(roleLevel);
     personDao.save(person);
     logger.debug(" registerUser ended " + person);
   }

@@ -1,6 +1,7 @@
 package com.artgallery.services.contracts;
 
 import com.artgallery.services.dto.UserDetailDTO;
+import com.artgallery.services.exceptions.InvalidResultException;
 import com.artgallery.services.exceptions.UserAlradyExistException;
 
 public interface UserSevice {
@@ -12,14 +13,15 @@ public interface UserSevice {
    * @param passcode
    * @return
    */
-  Boolean authenticateUser(String username, String passcode);
+  Boolean authenticateUser(String firstName,String lastName, String passcode);
   
   /**
    * this method will retrieve user details from db
-   * @param username
+   * @param firstName
+   * @param lastName
    * @return
    */
-  UserDetailDTO getUserDetail(String userId);
+  UserDetailDTO getUserDetail(String firstName, String lastName) throws InvalidResultException;
   
   /**
    *  Create a User 
@@ -27,4 +29,6 @@ public interface UserSevice {
    * @param userDetailDTO
    */
   void registerUser(UserDetailDTO userDetailDTO) throws UserAlradyExistException;
+  
+  
 }

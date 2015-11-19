@@ -15,6 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.artgallery.core.QueryParameter;
 import com.artgallery.daos.GenaricDAO;
 import com.artgallery.domain.DomainObject;
+import com.artgallery.domain.Person;
 import com.artgallery.services.impl.UserSeviceImpl;
 
 public class JPAGenaricDAO<T extends DomainObject> extends GenaricDAO<T> {
@@ -71,5 +72,9 @@ public class JPAGenaricDAO<T extends DomainObject> extends GenaricDAO<T> {
     JPAQueryParameter<T> jpaQueryParameter = (JPAQueryParameter<T>) queryParameter;
     jpaQueryParameter.initializeQueryWithValues(query);
     return query.getResultList();
+  }
+  
+  protected JPAQueryParameter<T> createNamedQuery(){
+    return  new JPAQueryParameter<T>();
   }
 }

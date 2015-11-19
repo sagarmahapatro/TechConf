@@ -1,36 +1,75 @@
 package com.artgallery.services.dto;
 
-import javax.persistence.Column;
-import javax.persistence.OneToOne;
+import org.apache.commons.lang.builder.ToStringBuilder;
 
-import com.artgallery.domain.RoleLevel;
 
 public class UserDetailDTO {
-	private String firstName;
-	private String lastName;
-	private String mailId;
-	private String role;
-	private String password;
-	public UserDetailDTO(String firstName, String lastName, String mailId ,String role, String password){
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.mailId = mailId;
-		this.role = role;
-		this.password = password;
-	}
-	public String getFirstName() {
-		return firstName;
-	}
-	public String getLastName() {
-		return lastName;
-	}
-	public String getMailId() {
-		return mailId;
-	}
-	public String getRole() {
-		return role;
-	}
-	public String getPassword() {
-		return password;
-	}
+  private String firstName;
+  private String lastName;
+  private String mailId;
+  private String role;
+  private String password;
+
+  public UserDetailDTO() {
+
+  }
+
+  public UserDetailDTO(String firstName, String lastName, String mailId, String role,
+      String password) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.mailId = mailId;
+    this.role = role;
+    this.password = password;
+  }
+
+  public String getFirstName() {
+    return firstName;
+  }
+
+  public String getLastName() {
+    return lastName;
+  }
+
+  public String getMailId() {
+    return mailId;
+  }
+
+  public String getRole() {
+    return role;
+  }
+
+  public String getPassword() {
+    return password;
+  }
+
+  public UserDetailDTO setFirstName(String firstName) {
+    this.firstName = firstName;
+    return this;
+  }
+
+  public UserDetailDTO setLastName(String lastName) {
+    this.lastName = lastName;
+    return this;
+  }
+
+  public UserDetailDTO setMailId(String mailId) {
+    this.mailId = mailId;
+    return this;
+  }
+
+  public UserDetailDTO setRole(String role) {
+    this.role = role;
+    return this;
+  }
+
+  public UserDetailDTO setPassword(String password) {
+    this.password = password;
+    return this;
+  }
+
+  @Override
+  public String toString() {
+    return ToStringBuilder.reflectionToString(this);
+  }
 }
