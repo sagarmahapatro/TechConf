@@ -29,8 +29,8 @@ public class ArtEntity implements DomainObject {
   // duplicate objects are not allowed
 
 
- // private Set<Comment> comments = new HashSet<Comment>();
- // private Set<Catagory> catagories = new HashSet<Catagory>();
+  private Set<Comment> comments = new HashSet<Comment>();
+  private Set<Catagory> catagories = new HashSet<Catagory>();
 
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
@@ -130,23 +130,23 @@ public class ArtEntity implements DomainObject {
     this.version = version;
   }
 
-//  @OneToMany
-//  public Set<Comment> getComments() {
-//    return comments;
-//  }
-//
-//  public void setComments(Set<Comment> comments) {
-//    this.comments = comments;
-//  }
-//
-//  @ManyToMany
-//  public Set<Catagory> getCatagories() {
-//    return catagories;
-//  }
-//
-//  public void setCatagories(Set<Catagory> catagories) {
-//    this.catagories = catagories;
-//  }
+  @OneToMany
+  public Set<Comment> getComments() {
+    return comments;
+  }
+
+  public void setComments(Set<Comment> comments) {
+    this.comments = comments;
+  }
+
+  @ManyToMany
+  public Set<Catagory> getCatagories() {
+    return catagories;
+  }
+
+  public void setCatagories(Set<Catagory> catagories) {
+    this.catagories = catagories;
+  }
 
 
 }

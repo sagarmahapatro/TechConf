@@ -87,9 +87,8 @@ public class UserSeviceImpl implements UserSevice {
     person.setPassword(userDetailDTO.getPassword());
     RoleLevel roleLevel = new RoleLevel();
     roleLevel.setRoll(userDetailDTO.getRole());
-
     roleLevelDAO.save(roleLevel);
-   // person.setRoleLevel(roleLevel);
+    person.setRoleLevel(roleLevel);
     personDao.save(person);
     logger.debug(" registerUser ended " + person);
   }

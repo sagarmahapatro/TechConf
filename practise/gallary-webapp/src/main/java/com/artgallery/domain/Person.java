@@ -5,39 +5,39 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.OneToOne;
+import javax.persistence.Table;
 
 @Entity
+@Table(name="PERSON")
 @NamedQueries({
     @NamedQuery(name = "Person.find",
-        query = "SELECT p from Person p where p.firstName like :firstName " + "or p.lastName like :lastName"),
+        query = "SELECT p from Person p where p.firstName like :firstName "
+            + "or p.lastName like :lastName"),
     @NamedQuery(name = "Person.findByMailID",
         query = "SELECT p from Person p where p.mailId like :mailId "),
-    @NamedQuery(name = "Person.findByUserNameAndPasscode",
-        query = "SELECT p from Person p where p.firstName like :firstName and p.lastName like :lastName " + "and p.password like :password")})
+    @NamedQuery(
+        name = "Person.findByUserNameAndPasscode",
+        query = "SELECT p from Person p where p.firstName like :firstName and p.lastName like :lastName "
+            + "and p.password like :password")})
 public class Person implements DomainObject {
 
-  @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
-
-  @Column
   private String firstName;
-
-  @Column
   private String lastName;
-
-  @Column
   private String mailId;
-
-  @OneToOne
   private RoleLevel roleLevel;
-
-  @Column
   private String password;
 
+  public Person(){
+    
+  }
+  
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
   public Long getId() {
     return id;
   }
@@ -46,6 +46,7 @@ public class Person implements DomainObject {
     this.id = id;
   }
 
+  @Column(name = "FIRST_NAME", nullable = false)
   public String getFirstName() {
     return firstName;
   }
@@ -54,6 +55,7 @@ public class Person implements DomainObject {
     this.firstName = firstName;
   }
 
+  @Column(name = "LAST_NAME", nullable = false)
   public String getLastName() {
     return lastName;
   }
@@ -62,6 +64,7 @@ public class Person implements DomainObject {
     this.lastName = lastName;
   }
 
+  @Column(name = "EMAIL_ID", nullable = false)
   public String getMailId() {
     return mailId;
   }
@@ -70,6 +73,8 @@ public class Person implements DomainObject {
     this.mailId = mailId;
   }
 
+  @OneToOne
+  @JoinColumn(name="ROLE_LEVEL_ID")
   public RoleLevel getRoleLevel() {
     return roleLevel;
   }
@@ -78,6 +83,7 @@ public class Person implements DomainObject {
     this.roleLevel = roleLevel;
   }
 
+  @Column(name = "PASSWORD", nullable = false)
   public String getPassword() {
     return password;
   }

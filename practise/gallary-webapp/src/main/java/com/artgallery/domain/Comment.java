@@ -2,7 +2,6 @@ package com.artgallery.domain;
 
 import java.sql.Date;
 
-import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -11,6 +10,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.persistence.Version;
 
+@SuppressWarnings("serial")
 public class Comment implements DomainObject {
   private Long id;
 
@@ -22,7 +22,7 @@ public class Comment implements DomainObject {
   private Integer version;
 
   @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
   public Long getId() {
     return id;
   }

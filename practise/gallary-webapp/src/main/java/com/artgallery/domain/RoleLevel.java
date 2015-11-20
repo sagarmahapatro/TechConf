@@ -1,38 +1,43 @@
 package com.artgallery.domain;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
-public class RoleLevel implements DomainObject{
-	
-	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	Long id;
-	
-	public static String GUEST = "guest";
-	public static String PUBLIC = "public";
-	public static String ADMIN = "admin";
-	
-	private String roll;
+@Table(name = "ROLELEVEL")
+public class RoleLevel implements DomainObject {
+  
+  public static String GUEST = "guest";
+  public static String PUBLIC = "public";
+  public static String ADMIN = "admin";
 
-	public Long getId() {
-		return id;
-	}
+  private Long id;
+  private String roll;
 
-	public void setId(Long id) {
-		this.id = id;
-	}
+  public RoleLevel(){
+    
+  }
+  
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  public Long getId() {
+    return id;
+  }
 
-	public String getRoll() {
-		return roll;
-	}
+  public void setId(Long id) {
+    this.id = id;
+  }
 
-	public void setRoll(String roll) {
-		this.roll = roll;
-	}
-	
+  @Column(name = "ROLL", nullable = false)
+  public String getRoll() {
+    return roll;
+  }
 
+  public void setRoll(String roll) {
+    this.roll = roll;
+  }
 }
