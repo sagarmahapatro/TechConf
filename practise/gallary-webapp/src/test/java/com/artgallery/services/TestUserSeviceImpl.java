@@ -13,6 +13,7 @@ public class TestUserSeviceImpl {
 
   public static void main(String[] args) {
 
+  
     ApplicationContext appContext = new ClassPathXmlApplicationContext("spring-jpa.xml");
 
     UserSevice userService = (UserSevice) appContext.getBean("userService");

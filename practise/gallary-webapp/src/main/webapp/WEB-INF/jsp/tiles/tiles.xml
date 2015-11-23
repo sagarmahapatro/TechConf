@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	
+	<definition name="gallery.anonymous" template="/WEB-INF/jsp/layouts/anonymous_layout.jsp">
+          <put-attribute name="title" value="Welcome Art Gallery Page" />
+          <put-attribute name="header" value="/WEB-INF/jsp/decorator/header.jsp" />
+          <put-attribute name="body" value="" />
+          <put-attribute name="footer" value="/WEB-INF/jsp/decorator/footer.jsp"  />
+	</definition>
+	
+	<definition name="index_page" extends="gallery.anonymous">
+	    <put-attribute name="body" value="/WEB-INF/jsp/index.jsp"></put-attribute>
+	</definition>
+
+	<definition name="gallery.authenticated" template="/WEB-INF/jsp/layouts/authenticated_layout.jsp">
+
+	</definition>
+
+
+
+</tiles-definitions>

@@ -1,0 +1,1 @@
+<h1> All Right Reserved www.softwarefactory.com| © 2010-2014 </h1>
