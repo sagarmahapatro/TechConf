@@ -25,18 +25,30 @@
 
 
 <body>
-	<div class="row">
-		<div class="col-lg-9 col-sm-6">The Indian government made a substantial allocation of Rs 3,625 crores for the Swacch Bharat Mission for the financial year ending March 2016 which is a healthy 27% increase over last year’s allocation. Not just this, almost 94% of funds earmarked for the initiative were released by the government in the financial year 2013-'14.</div>
-		<div class="col-lg-3 col-sm-6">Even though there’s no indication yet that the government will cut its own funding to the initiative, the chatter in the corridors is that the government wants it to be a self-financing initiative rather than put money out of its own kitty each year.</div>
+	<!-- 	<div class="app-header"> -->
+	<%-- 		<tiles:insertAttribute name="header" /> --%>
+	<!-- 	</div> -->
+	<!-- 	<div class="app-body"> -->
+	<%-- 		<tiles:insertAttribute name="body" /> --%>
+	<!-- 	</div> -->
+	<!-- 	<div class="app-footer"> -->
+	<%-- 		<tiles:insertAttribute name="footer" /> --%>
+	<!-- 	</div> -->
+	<div id="outer_box">
+		<div id="new_box_1">BOX 1</div>
+		<div id="new_box_2">BOX 2</div>
+		<div id="new_box_3">BOX 3</div>
+		<div id="new_box_4">BOX 4</div>
+		<div id="new_box_5">BOX 5</div>
 	</div>
-	
-	
+
+
 	<script
 		src="<c:url value="/resources/libs/jquery/1.11.2/jquery.min.js" />">
 		
 	</script>
 	<script
 		src="<c:url value="/resources/libs/bootstrap-3.3.5-dist/js/bootstrap.min.js" />"></script>
-		<script src="<c:url value="/resources/js/app.js" />"></script>
+	<script src="<c:url value="/resources/js/app.js" />"></script>
 </body>
 </html>

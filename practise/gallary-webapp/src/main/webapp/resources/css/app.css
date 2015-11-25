@@ -1,0 +1,105 @@
+.ui-container {
+	background-color: #ffffff;
+	border-style: double;
+}
+
+.app-info {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	line-height: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 19px;
+}
+
+.app-links {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+}
+
+#signin-link {
+	padding-right: 1%;
+}
+
+#signin-link {
+	registration-link: 1%;
+}
+
+.app-header {
+	background-color: #525B76;
+}
+
+.app-footer {
+	position: relative;
+	background-color: #525B76;
+	bottom: 2px;
+}
+
+body {
+	background-color: #6A66A3;
+	font-size: medium;
+}
+
+#exp {
+	background-color: #000000;
+	width: 200px;
+	height: 200px;
+	bottom: 2px;
+	top: 10px;
+	right: 10px;
+	position: relative;
+}
+
+#outer_box {
+	position: absolute;
+	top:100px;
+	left:100px;
+	background-color: #00ff00;
+	width: 800px;
+	height: 800px;
+
+}
+
+#new_box_1 {
+	position: absolute;
+	top:0px;
+	left:0px;
+	background-color: #ff0080;
+	width: 200px;
+	height: 200px;
+}
+
+#new_box_2 {
+	position: absolute;
+	top:0px;
+	right:0px;
+	background-color: #8000ff;
+	width: 200px;
+	height: 200px;
+}
+#new_box_3 {
+	position: absolute;
+	bottom:0px;
+	left:0px;
+	background-color: #ffff80;
+	width: 200px;
+	height: 200px;
+}
+#new_box_4 {
+	position: absolute;
+	bottom:0px;
+	right:0px;
+	background-color: #008040;
+	width: 200px;
+	height: 200px;
+}
+
+#new_box_5 {
+	position: relative;
+	top:100px;
+	left:100px;
+	background-color: #400040;
+	width: 400px;
+	height: 400px;
+}
