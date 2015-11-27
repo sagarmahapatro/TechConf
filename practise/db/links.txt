@@ -1,0 +1,3 @@
+http://designingfortheweb.co.uk/part1/part1_chapter2.php
+http://www.geeksengine.com/database/problem-solving
+https://www.webucator.com/tutorial/learn-sql/conditional-processing-with-case.cfm
