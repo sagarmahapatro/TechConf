@@ -4,3 +4,4 @@ eclipse-workspace/*
 eclipse-workspace
 devtools
 dependencies
+main/*/target
