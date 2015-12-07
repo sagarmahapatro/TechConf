@@ -11,6 +11,8 @@ GRANT ALL ON *.* TO 'sagar'@'localhost';
 
 git reset (undo add)
 
+https://technology.amis.nl/2015/03/15/my-first-steps-with-docker-starting-from-windows-as-the-host/
+
 ------------------------------------------------------------
 
 <?xml version="1.0" encoding="UTF-8"?>
