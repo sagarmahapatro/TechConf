@@ -1,0 +1,28 @@
+{
+  "name": "broweser-rich-app",
+  "description": "spa for tecconf project",
+  "main": "gulp.js",
+  "authors": [
+    "sagar mahapatro"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/sagarmahapatro/TechConf",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "angular-animate": "~1.4.8",
+    "angular-route": "~1.4.8",
+    "jquery": "~2.1.4",
+    "animate.css": "~3.4.0",
+    "bootstrap": "~3.3.6",
+    "font-awesome": "fontawesome#~4.5.0"
+  }
+}

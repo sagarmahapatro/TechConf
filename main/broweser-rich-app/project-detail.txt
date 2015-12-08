@@ -1,0 +1,14 @@
+set up angular js project 
+ create foldr
+ npm init  // will create package.json
+ npm install -g gulp bower
+ npm install gulp bower gulp-clean gulp-jshint gulp-uglify gulp-minify-css gulp-connect --save
+ bowe init // will create bower.json
+  create .bowerrc file with content 
+  {
+  "directory": "/app/bower_components"
+}
+
+bower install angular angular-animate angular-route jquery animate.css bootstrap fontawesome --save
+
+create gulpfile.js file at the root 
