@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TechConf</title>
+	<script type="text/javascript" src="../lib/angular.js"></script>
+	<link rel="stylesheet" type="text/css" href="../lib/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../lib/bootstrap-theme.css">
+	<script type="text/javascript">
+	var tcon = angular.module("techconf", []);
+	tcon.controller("content", function($scope) {
+		$scope.shoutout = "I'm here";
+		$scope.eventData = {
+			events : [{name: "NESCO Tech Meet",
+			description: "See the latest embedded systems built by engineers around the world",
+			date: "25 Dec 2015"},
+			{name: "Do It by Nike",
+			description: "Nike steps into technology. See how nike brings technology to sports.",
+			date: "10 Jan 2016"}]
+		}
+	})
+	</script>
+</head>
+<body ng-app="techconf">
+<header>
+	TechConf <small>Find the best technology events around you</small>
+</header>
+<section ng-controller="content">
+	Main Content 
+	<div ng-repeat="event in eventData.events">
+		<div>{{event.name}} <small>{{event.date}}</small></div>
+		<div>{{event.description}}</div>
+	</div>
+</section>
+<footer>
+	<small>&copy; 2015 TechConf</small> 
+</footer>
+</body>
+</html>
