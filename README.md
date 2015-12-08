@@ -87,3 +87,29 @@ Managing the complex interactions of a conference is a challenging process. One 
 - **Conference closing**: An interface must be provided for conference administrators to easily transition the selected content into a static site. Specific data now becomes legacy data and must be relocated or archived appropriately.
 - **Dashboard**: Utilities must be provided for conference administrators to gather statistics and performance indicators for the conference. These tools should be able to provide a
 snapshot view of the overall health and success indicators of the conference.
+-------------------
+Technologies
+--------------------------------
+tools
+--------------------------------------------
+
+
+#### javascript run time environment 
+* **Node.js** https://nodejs.org/dist/v5.1.1/node-v5.1.1-x64.msi
+* **brackets** java script editor https://github.com/adobe/brackets/releases/download/release-1.5%2Beb4/Brackets.1.5.Extract.msi
+* **maven** build system http://apache.mirrors.pair.com/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.zip
+* **java sdk** http://download.oracle.com/otn-pub/java/jdk/8u65-b17/jdk-8u65-windows-x64.exe
+* **eclipse IDE** java development tool http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-jee-mars-R-win32-x86_64.zip&mirror_id=1
+* **docker** container managment tool  https://github.com/docker/toolbox/releases/download/v1.9.1c/DockerToolbox-1.9.1c.exe
+
+project detail
+--
+#### broweser-rich-app 
+after installing node.js, Please run following commands
+*  npm install
+* bower install
+
+After succesful completition of above commands, 
+then run ** gulp connect**  from command prompt and upon seeing success message
+launch browser and enter localhost:4000 in the address bar you will be able to see messsage **"Welcome To Tech Conference Managment System"** 
+
