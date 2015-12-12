@@ -1,0 +1,21 @@
+
+
+/* Header */
+.navbar-inverse.header{
+  background-color:#3B252C;
+  background-image: none;
+  border-radius: 0px;
+}
+
+.navbar.header {
+  margin-bottom: 0px;
+}
+
+.branding {
+  background-color:  #E3E4DB;
+  color: #8F6593;
+}
+
+.event {
+
+}

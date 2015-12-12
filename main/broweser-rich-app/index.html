@@ -5,10 +5,10 @@
 	<script type="text/javascript" src="../lib/angular.js"></script>
 	<link rel="stylesheet" type="text/css" href="../lib/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="../lib/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="../stylesheets/app.css">
 	<script type="text/javascript">
 	var tcon = angular.module("techconf", []);
 	tcon.controller("content", function($scope) {
-		$scope.shoutout = "I'm here";
 		$scope.eventData = {
 			events : [{name: "NESCO Tech Meet",
 			description: "See the latest embedded systems built by engineers around the world",
@@ -22,16 +22,31 @@
 </head>
 <body ng-app="techconf">
 <header>
-	TechConf <small>Find the best technology events around you</small>
+	<nav class="navbar navbar-inverse header">
+		<div class="container header">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Tech Conf.</a>
+			</div>
+		</div>
+	</nav>
 </header>
-<section ng-controller="content">
-	Main Content 
-	<div ng-repeat="event in eventData.events">
-		<div>{{event.name}} <small>{{event.date}}</small></div>
-		<div>{{event.description}}</div>
+<!-- Branding  -->
+<section class="branding">
+	<div class="container">
+		<h4>Find the best technology events around you! Here are some trending events. Let's get going </h4>
 	</div>
 </section>
-<footer>
+<!-- Main Content -->
+<section class="container" ng-controller="content">
+	<div class="panel panel-default" ng-repeat="event in eventData.events">
+		<div class="panel-heading">
+		<h3 class="panel-title">{{event.name}}<small>{{event.date}}</small></h3>
+		</div>
+		<div class="panel-body">{{event.description}}</div>
+	</div>
+</section>
+<!-- Footer -->
+<footer class="container">
 	<small>&copy; 2015 TechConf</small> 
 </footer>
 </body>
